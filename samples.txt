@@ -1,0 +1,1831 @@
+
+Initialize the variable named lst1 with a list ['1a', 'a', '2b', 'b'].
+Create a function called num_in_str() to check whether a string contains a number.
+Call the function num_in_str() to find strings in lst1 that have numbers and assign them to a list named lst2
+Print out lst2
+
+Initialize the variable named lst1 with a list ['abc', 'abc10'].
+Create a function called num_in_str() to check whether a string contains a number.
+Call the function num_in_str() to find strings in lst1 that have numbers and assign them to a list named lst2
+Print out lst2
+
+Initialize the variable named lst1 with a list ['abc', 'ab10c', 'a10bc', 'bcd'].
+Create a function called num_in_str() to check whether a string contains a number.
+Call the function num_in_str() to find strings in lst1 that have numbers and assign them to a list named lst2
+Print out lst2
+
+Initialize the variable named lst1 with a list ['this is a test', 'test1'].
+Create a function called num_in_str() to check whether a string contains a number.
+Call the function num_in_str() to find strings in lst1 that have numbers and assign them to a list named lst2
+Print out lst2
+
+Initialize the variable named lst1 with a list ['t0t', '11', '0'].
+Create a function called num_in_str() to check whether a string contains a number.
+Call the function num_in_str() to find strings in lst1 that have numbers and assign them to a list named lst2
+Print out lst2
+
+Define a function "a" that multiplies an integer argument by 2 and returns the result.
+Define a function "b" that multiplies an integer argument by 2 and returns the result.
+Define a function "c" that multiplies an integer argument by 2 and returns the result.
+Create a list named "abc" which contains the three functions in order of definition.
+Assign the integer 1 to a variable "my_init".
+Apply the first function of the list to "my_init" and name the result "my_result".
+For each subsequent function in the list, take the result of the previous function as input argument and assign the result to "my_result".
+Print the variable named "my_result".
+
+Define a function "a" that multiplies an integer argument by 1 and returns the result.
+Define a function "b" that multiplies an integer argument by 1 and returns the result.
+Define a function "c" that multiplies an integer argument by 2 and returns the result.
+Create a list named "abc" which contains the three functions in order of definition.
+Assign the integer 1 to a variable "my_init".
+Apply the first function of the list to "my_init" and name the result "my_result".
+For each subsequent function in the list, take the result of the previous function as input argument and assign the result to "my_result".
+Print the variable named "my_result".
+
+Define a function "a" that multiplies an integer argument by 2 and returns the result.
+Define a function "b" that multiplies an integer argument by 2 and returns the result.
+Define a function "c" that multiplies an integer argument by 2 and returns the result.
+Create a list named "abc" which contains the three functions in order of definition.
+Assign the integer 2 to a variable "my_init".
+Apply the first function of the list to "my_init" and name the result "my_result".
+For each subsequent function in the list, take the result of the previous function as input argument and assign the result to "my_result".
+Print the variable named "my_result".
+
+Define a function "a" that multiplies an integer argument by -2 and returns the result.
+Define a function "b" that multiplies an integer argument by 2 and returns the result.
+Define a function "c" that multiplies an integer argument by 2 and returns the result.
+Create a list named "abc" which contains the three functions in order of definition.
+Assign the integer 1 to a variable "my_init".
+Apply the first function of the list to "my_init" and name the result "my_result".
+For each subsequent function in the list, take the result of the previous function as input argument and assign the result to "my_result".
+Print the variable named "my_result".
+
+Define a function "a" that multiplies an integer argument by -2 and returns the result.
+Define a function "b" that multiplies an integer argument by -2 and returns the result.
+Define a function "c" that multiplies an integer argument by 2 and returns the result.
+Create a list named "abc" which contains the three functions in order of definition.
+Assign the integer 1 to a variable "my_init".
+Apply the first function of the list to "my_init" and name the result "my_result".
+For each subsequent function in the list, take the result of the previous function as input argument and assign the result to "my_result".
+Print the variable named "my_result".
+
+This function "to_plural" takes list of words in the singular form and returns a set of those words in the plural form adding an "s" to the end of the words, if they appear more than once in the list. E.g., pluralize(["cow", "pig", "cow", "cow"]) = {{"cows", "pig"}}, pluralize(["table", "table", "table"]) = {{"tables"}}.
+Create a function "is_plural" which returns True if the word passed as argument is in plural form.
+Assign ["chair", "pencil", "arm", "arm"] to a variable named "words".
+Apply the function that returns plural forms to the variable "words" and name the result "words_plural".
+Define a boolean "contains_plural" and apply "is_plural" to each element of "words_plural" to detect if at least one word is in plural form.
+Print out whether or not "words_plural" contains a word in plural as boolean.
+
+This function "to_plural" takes list of words in the singular form and returns a set of those words in the plural form adding an "s" to the end of the words, if they appear more than once in the list. E.g., pluralize(["cow", "pig", "cow", "cow"]) = {{"cows", "pig"}}, pluralize(["table", "table", "table"]) = {{"tables"}}.
+Create a function "is_plural" which returns True if the word passed as argument is in plural form.
+Assign ["arm", "arm", "arm", "arm"] to a variable named "words".
+Apply the function that returns plural forms to the variable "words" and name the result "words_plural".
+Define a boolean "contains_plural" and apply "is_plural" to each element of "words_plural" to detect if at least one word is in plural form.
+Print out whether or not "words_plural" contains a word in plural as boolean.
+
+This function "to_plural" takes list of words in the singular form and returns a set of those words in the plural form adding an "s" to the end of the words, if they appear more than once in the list. E.g., pluralize(["cow", "pig", "cow", "cow"]) = {{"cows", "pig"}}, pluralize(["table", "table", "table"]) = {{"tables"}}.
+Create a function "is_plural" which returns True if the word passed as argument is in plural form.
+Assign ["chair", "arm", "pencil", "arm"] to a variable named "words".
+Apply the function that returns plural forms to the variable "words" and name the result "words_plural".
+Define a boolean "contains_plural" and apply "is_plural" to each element of "words_plural" to detect if at least one word is in plural form.
+Print out whether or not "words_plural" contains a word in plural as boolean.
+
+This function "to_plural" takes list of words in the singular form and returns a set of those words in the plural form adding an "s" to the end of the words, if they appear more than once in the list. E.g., pluralize(["cow", "pig", "cow", "cow"]) = {{"cows", "pig"}}, pluralize(["table", "table", "table"]) = {{"tables"}}.
+Create a function "is_plural" which returns True if the word passed as argument is in plural form.
+Assign ["chair", "pencil", "arm"] to a variable named "words".
+Apply the function that returns plural forms to the variable "words" and name the result "words_plural".
+Define a boolean "contains_plural" and apply "is_plural" to each element of "words_plural" to detect if at least one word is in plural form.
+Print out whether or not "words_plural" contains a word in plural as boolean.
+
+This function "to_plural" takes list of words in the singular form and returns a set of those words in the plural form adding an "s" to the end of the words, if they appear more than once in the list. E.g., pluralize(["cow", "pig", "cow", "cow"]) = {{"cows", "pig"}}, pluralize(["table", "table", "table"]) = {{"tables"}}.
+Create a function "is_plural" which returns True if the word passed as argument is in plural form.
+Assign ["chair", "pencil", "table"] to a variable named "words".
+Apply the function that returns plural forms to the variable "words" and name the result "words_plural".
+Define a boolean "contains_plural" and apply "is_plural" to each element of "words_plural" to detect if at least one word is in plural form.
+Print out whether or not "words_plural" contains a word in plural as boolean.
+
+Assign the list of numbers "[1,2,3,4]" to a variable named "my_relative_altitude".
+Compute the all prefix sum in the list ( 0 is the first element ) and store as my_net_altitude.
+Find the larget number in the list my_net_altitude and print it out.
+
+Assign the list of numbers "[-1,2,3,4]" to a variable named "my_relative_altitude".
+Compute the all prefix sum in the list ( 0 is the first element ) and store as my_net_altitude.
+Find the larget number in the list my_net_altitude and print it out.
+
+Assign the list of numbers "[-1,-2,-3,-4]" to a variable named "my_relative_altitude".
+Compute the all prefix sum in the list ( 0 is the first element ) and store as my_net_altitude.
+Find the larget number in the list my_net_altitude and print it out.
+
+Assign the list of numbers "[-1000000, 1, 2]" to a variable named "my_relative_altitude".
+Compute the all prefix sum in the list ( 0 is the first element ) and store as my_net_altitude.
+Find the larget number in the list my_net_altitude and print it out.
+
+Assign the list of numbers "[-5, 1, 5, 0, -10]" to a variable named "my_relative_altitude".
+Compute the all prefix sum in the list ( 0 is the first element ) and store as my_net_altitude.
+Find the larget number in the list my_net_altitude and print it out.
+
+Assign the list of words "['hello', 'world']" to a variable named "my_sentences".
+Assign an integer "1" to a variable named "k".
+Truncate the list such that it contains k words and store as truncated_list
+Print out the variable truncated_list .
+
+Assign the list of words "['hello', 'how', 'are', 'you', 'Jim']" to a variable named "my_sentences".
+Assign an integer "4" to a variable named "k".
+Truncate the list such that it contains k words and store as truncated_list
+Print out the variable truncated_list .
+
+Assign the list of words "['China', 'is', 'a', 'large', 'country']" to a variable named "my_sentences".
+Assign an integer "1" to a variable named "k".
+Truncate the list such that it contains k words and store as truncated_list
+Print out the variable truncated_list .
+
+Assign the list of words "['yes', 'yes', 'yes', 'yes', 'yes']" to a variable named "my_sentences".
+Assign an integer "4" to a variable named "k".
+Truncate the list such that it contains k words and store as truncated_list
+Print out the variable truncated_list .
+
+Assign the list of words "['what', 'is', 'your', 'name']" to a variable named "my_sentences".
+Assign an integer "1" to a variable named "k".
+Truncate the list such that it contains k words and store as truncated_list
+Print out the variable truncated_list .
+
+Assign the list of integers "[1, 2, 2, 2]" to a variable named "my_numbers".
+Count the frequencies of the integers in my_numbers.
+Find the integer that the frequency is 1 and store as one_time.
+Print out the variable one_time.
+
+Assign the list of integers "[-1, 4, 4, 4, 4, 4]" to a variable named "my_numbers".
+Count the frequencies of the integers in my_numbers.
+Find the integer that the frequency is 1 and store as one_time.
+Print out the variable one_time.
+
+Assign the list of integers "[-1, -4, 8, -4, 8]" to a variable named "my_numbers".
+Count the frequencies of the integers in my_numbers.
+Find the integer that the frequency is 1 and store as one_time.
+Print out the variable one_time.
+
+Assign the list of integers "[-1000000, 1, 1]" to a variable named "my_numbers".
+Count the frequencies of the integers in my_numbers.
+Find the integer that the frequency is 1 and store as one_time.
+Print out the variable one_time.
+
+Assign the list of integers "[10000, 2, 2, 2,2,2]" to a variable named "my_numbers".
+Count the frequencies of the integers in my_numbers.
+Find the integer that the frequency is 1 and store as one_time.
+Print out the variable one_time.
+
+Assign the list of integers "[1, 2, 2, 2]" to a variable named "my_numbers".
+Assign an integer "2" to a variable named "val".
+Remove all occurrences of val in my_numbers and store the removed list as remove_numbers.
+Print out the variable remove_numbers.
+
+Assign the list of integers "[-1, 4, 4, 4, 4, 4]" to a variable named "my_numbers".
+Assign an integer "4" to a variable named "val".
+Remove all occurrences of val in my_numbers and store the removed list as remove_numbers.
+Print out the variable remove_numbers.
+
+Assign the list of integers "[-1, -4, 8, -4, 8]" to a variable named "my_numbers".
+Assign an integer "-1" to a variable named "val".
+Remove all occurrences of val in my_numbers and store the removed list as remove_numbers.
+Print out the variable remove_numbers.
+
+Assign the list of integers "[-1000000, 1, 1]" to a variable named "my_numbers".
+Assign an integer "1" to a variable named "val".
+Remove all occurrences of val in my_numbers and store the removed list as remove_numbers.
+Print out the variable remove_numbers.
+
+Assign the list of integers "[10000, 2, 2, 2,2,2]" to a variable named "my_numbers".
+Assign an integer "2" to a variable named "val".
+Remove all occurrences of val in my_numbers and store the removed list as remove_numbers.
+Print out the variable remove_numbers.
+
+Assign the list of integers "[1, 2, 2, 2]" to a variable named "my_numbers".
+Assign an integer "2" to a variable named "val".
+Sum all the number in my_numbers and store as sum_numbers.
+Check whether the sum_numbers is equal to val. If yes, return "True", otherwise return "False".
+
+Assign the list of integers "[-1, 5]" to a variable named "my_numbers".
+Assign an integer "4" to a variable named "val".
+Sum all the number in my_numbers and store as sum_numbers.
+Check whether the sum_numbers is equal to val. If yes, return "True", otherwise return "False".
+
+Assign the list of integers "[-1, -1, -1, -1, 1]" to a variable named "my_numbers".
+Assign an integer "-5" to a variable named "val".
+Sum all the number in my_numbers and store as sum_numbers.
+Check whether the sum_numbers is equal to val. If yes, return "True", otherwise return "False".
+
+Assign the list of integers "[-1000000, 1, 1]" to a variable named "my_numbers".
+Assign an integer "1" to a variable named "val".
+Sum all the number in my_numbers and store as sum_numbers.
+Check whether the sum_numbers is equal to val. If yes, return "True", otherwise return "False".
+
+Assign the list of integers "[10000, 2, 2, 2,2,2]" to a variable named "my_numbers".
+Assign an integer "2" to a variable named "val".
+Sum all the number in my_numbers and store as sum_numbers.
+Check whether the sum_numbers is equal to val. If yes, return "True", otherwise return "False".
+
+Assign a sorted list "[1, 2, 2, 2]" to a variable named "my_numbers1".
+Assign a sorted list "[3, 4]" to a variable named "my_numbers2".
+Merge the two sorted lists in a new sorted list and store as new_list.
+Print the sorted new_list.
+
+Assign a sorted list "[-1, 5]" to a variable named "my_numbers1".
+Assign a sorted list "[1, 2]" to a variable named "my_numbers2".
+Merge the two sorted lists in a new sorted list and store as new_list.
+Print the sorted new_list.
+
+Assign a sorted list "[-1, -1, -1, -1, 1]" to a variable named "my_numbers1".
+Assign a sorted list "[-1, 8]" to a variable named "my_numbers2".
+Merge the two sorted lists in a new sorted list and store as new_list.
+Print the sorted new_list.
+
+Assign a sorted list "[-1000000, 1, 1]" to a variable named "my_numbers1".
+Assign a sorted list "[1, 6]" to a variable named "my_numbers2".
+Merge the two sorted lists in a new sorted list and store as new_list.
+Print the sorted new_list.
+
+Assign a sorted list "[2, 2,2,2,2, 10000]" to a variable named "my_numbers1".
+Assign a sorted list "[-2, -1]" to a variable named "my_numbers2".
+Merge the two sorted lists in a new sorted list and store as new_list.
+Print the sorted new_list.
+
+Assign an integer array "[1]" to a variable named "my_array".
+Find the contiguous subarray of my_array with the largest sum and store as max_subarray.
+Compute the sum of max_subarray and store as sum_subarry.
+Print out the variable sum_subarray.
+
+Assign an integer array "[-1, 5]" to a variable named "my_array".
+Find the contiguous subarray of my_array with the largest sum and store as max_subarray.
+Compute the sum of max_subarray and store as sum_subarry.
+Print out the variable sum_subarray.
+
+Assign an integer array "[-1, -1, -1, -1, 1]" to a variable named "my_array".
+Find the contiguous subarray of my_array with the largest sum and store as max_subarray.
+Compute the sum of max_subarray and store as sum_subarry.
+Print out the variable sum_subarray.
+
+Assign an integer array "[-1000000, 1, 1]" to a variable named "my_array".
+Find the contiguous subarray of my_array with the largest sum and store as max_subarray.
+Compute the sum of max_subarray and store as sum_subarry.
+Print out the variable sum_subarray.
+
+Assign an integer array "[2, 2,2,2,2, 10000]" to a variable named "my_array".
+Find the contiguous subarray of my_array with the largest sum and store as max_subarray.
+Compute the sum of max_subarray and store as sum_subarry.
+Print out the variable sum_subarray.
+
+Assign the positive number "1" to a variable named "my_number".
+Compute the squre root of the number and store as square_root. 
+Compute the largest integer but not larger than square_root and store as largest_square_root.
+Print the integer largest_square_root.
+
+Assign the positive number "5" to a variable named "my_number".
+Compute the squre root of the number and store as square_root. 
+Compute the largest integer but not larger than square_root and store as largest_square_root.
+Print the integer largest_square_root.
+
+Assign the positive number "101" to a variable named "my_number".
+Compute the squre root of the number and store as square_root. 
+Compute the largest integer but not larger than square_root and store as largest_square_root.
+Print the integer largest_square_root.
+
+Assign the positive number "30" to a variable named "my_number".
+Compute the squre root of the number and store as square_root. 
+Compute the largest integer but not larger than square_root and store as largest_square_root.
+Print the integer largest_square_root.
+
+Assign the positive number "10000" to a variable named "my_number".
+Compute the squre root of the number and store as square_root. 
+Compute the largest integer but not larger than square_root and store as largest_square_root.
+Print the integer largest_square_root.
+
+Assign the list of words "['Hello', 'word']" to a variable named "my_words".
+Count the length of the words in the list and store as a dictionary word_count. 
+Find the element with the largest count in dictionary word_count and store as longest_word.
+print the variable longest_word.
+
+Assign the list of words "['a', 'good', 'place']" to a variable named "my_words".
+Count the length of the words in the list and store as a dictionary word_count. 
+Find the element with the largest count in dictionary word_count and store as longest_word.
+print the variable longest_word.
+
+Assign the list of words "['the', 'last', 'word', 'in', 'the', 'sentence']" to a variable named "my_words".
+Count the length of the words in the list and store as a dictionary word_count. 
+Find the element with the largest count in dictionary word_count and store as longest_word.
+print the variable longest_word.
+
+Assign the list of words "['good']" to a variable named "my_words".
+Count the length of the words in the list and store as a dictionary word_count. 
+Find the element with the largest count in dictionary word_count and store as longest_word.
+print the variable longest_word.
+
+Assign the list of words "['There', 'will', 'be', 'a', 'joy']" to a variable named "my_words".
+Count the length of the words in the list and store as a dictionary word_count. 
+Find the element with the largest count in dictionary word_count and store as longest_word.
+print the variable longest_word.
+
+Assign the list of numbers "[1,2,3]" to a variable named "my_numbers".
+Return the elements that appears exactly once in the above list and store as my_uniques.
+Compute the sum of the list my_uniques and print it out.
+
+Assign the list of numbers "[1,1,1,1]" to a variable named "my_numbers".
+Return the elements that appears exactly once in the above list and store as my_uniques.
+Compute the sum of the list my_uniques and print it out.
+
+Assign the list of numbers "[-1,-2,-3,-3]" to a variable named "my_numbers".
+Return the elements that appears exactly once in the above list and store as my_uniques.
+Compute the sum of the list my_uniques and print it out.
+
+Assign the list of numbers "[-1000000, 1, 1, 2,2,3,3,3,3]" to a variable named "my_numbers".
+Return the elements that appears exactly once in the above list and store as my_uniques.
+Compute the sum of the list my_uniques and print it out.
+
+Assign the list of numbers "[-5, 1, -5, 0, -10]" to a variable named "my_numbers".
+Return the elements that appears exactly once in the above list and store as my_uniques.
+Compute the sum of the list my_uniques and print it out.
+
+Assign the matrix "[[3, 2], [2, 3]]" to a variable named "my_matrix".
+Find the diagonal elements of my matrix and store as diag_elements.
+print out the sum of the variable diag_elements.
+
+Assign the matrix "[[3, 2, 5], [2, 3, 5]]" to a variable named "my_matrix".
+Find the diagonal elements of my matrix and store as diag_elements.
+print out the sum of the variable diag_elements.
+
+Assign the matrix "[1]" to a variable named "my_matrix".
+Find the diagonal elements of my matrix and store as diag_elements.
+print out the sum of the variable diag_elements.
+
+Assign the matrix "[[30000, 30000, 1], [30000, 30000, 1], [30000, 30000, 1]]" to a variable named "my_matrix".
+Find the diagonal elements of my matrix and store as diag_elements.
+print out the sum of the variable diag_elements.
+
+Assign the matrix "[5, 5, 5, 5, 5, 0]" to a variable named "my_matrix".
+Find the diagonal elements of my matrix and store as diag_elements.
+print out the sum of the variable diag_elements.
+
+Assign the matrix "[[3, 2], [2, 3]]" to a variable named "my_matrix".
+Assign the number "1" to a variable named "t".
+Compute the condition number of my_matrix and store as result.
+Check whether the result is smaller than t. If yes, return "True", otherwise return "False".
+
+Assign the matrix "[[3, 2, 5], [2, 3, 5]]" to a variable named "my_matrix".
+Assign the number "-1" to a variable named "t".
+Compute the condition number of my_matrix and store as result.
+Check whether the result is smaller than t. If yes, return "True", otherwise return "False".
+
+Assign the matrix "[[1, 5]]" to a variable named "my_matrix".
+Assign the number "2" to a variable named "t".
+Compute the condition number of my_matrix and store as result.
+Check whether the result is smaller than t. If yes, return "True", otherwise return "False".
+
+Assign the matrix "[[30000, 30000, 1], [30000, 30000, 1], [30000, 30000, 1]]" to a variable named "my_matrix".
+Assign the number "100" to a variable named "t".
+Compute the condition number of my_matrix and store as result.
+Check whether the result is smaller than t. If yes, return "True", otherwise return "False".
+
+Assign the matrix "[[5, 5, 5, 5, 5, 0]]" to a variable named "my_matrix".
+Assign the number "0.5" to a variable named "t".
+Compute the condition number of my_matrix and store as result.
+Check whether the result is smaller than t. If yes, return "True", otherwise return "False".
+
+Assign the matrix "[[3, 2], [2, 3]]" to a variable named "a".
+Assign the matrix "[[3, 2], [2, 3]]" to a variable named "b".
+Compute the multiplication of two matrices and store as result.
+Compute the sum of the result and print it out.
+
+Assign the matrix "[[3, 2, 5], [2, 3, 5]]" to a variable named "a".
+Assign the matrix "[[1, 0], [0, 1], [2, -2]]" to a variable named "b".
+Compute the multiplication of two matrices and store as result.
+Compute the sum of the result and print it out.
+
+Assign the matrix "[[1, 5, 67, -1]]" to a variable named "a".
+Assign the matrix "[[-1], [0], [0], [-1]]" to a variable named "b".
+Compute the multiplication of two matrices and store as result.
+Compute the sum of the result and print it out.
+
+Assign the matrix "[[30000, 30000, 1], [30000, 30000, 1], [30000, 30000, 1]]" to a variable named "a".
+Assign the matrix "[[1, 0, 6], [0, 1, 5], [0, 1, 4]]" to a variable named "b".
+Compute the multiplication of two matrices and store as result.
+Compute the sum of the result and print it out.
+
+Assign the matrix "[[5, 5, 5, 5, 5, 0]]" to a variable named "a".
+Assign the matrix "[[-1], [-1], [-1], [-1], [-1], [1000]]" to a variable named "b".
+Compute the multiplication of two matrices and store as result.
+Compute the sum of the result and print it out.
+
+Assign the matrix "[[3, 2], [2, 3]]" to a variable named "a".
+Assign the matrix "[[3, 2], [2, 2]]" to a variable named "b".
+Implement a function that computes the determinant of a matrix.
+Check whether the determinant of matrix a is large than matrix b. If yes, print "True", otherwise print "False".
+
+Assign the matrix "[[3, 2, 5], [2, 3, 5], [3, 5, 6]]" to a variable named "a".
+Assign the matrix "[[3, 2], [2, -3]]" to a variable named "b".
+Implement a function that computes the determinant of a matrix.
+Check whether the determinant of matrix a is large than matrix b. If yes, print "True", otherwise print "False".
+
+Assign the matrix "[[1, 5, 67, -1], [2, 3, 6, 7], [2, 3, 6, 7], [2, 3, 6, 7]]" to a variable named "a".
+Assign the matrix "[[0, 0], [1, 4]]" to a variable named "b".
+Implement a function that computes the determinant of a matrix.
+Check whether the determinant of matrix a is large than matrix b. If yes, print "True", otherwise print "False".
+
+Assign the matrix "[[30000, 30000, 1], [30000, 30000, 1], [30000, 30000, 1]]" to a variable named "a".
+Assign the matrix "[[30000, 30000, 30000], [30000, 1, 1], [30000, 30000, 1]]" to a variable named "b".
+Implement a function that computes the determinant of a matrix.
+Check whether the determinant of matrix a is large than matrix b. If yes, print "True", otherwise print "False".
+
+Assign the matrix "[[1, 0, 6], [0, 1, 5], [0, 1, 4]]" to a variable named "a".
+Assign the matrix "[[1, 0], [0, 1]]" to a variable named "b".
+Implement a function that computes the determinant of a matrix.
+Check whether the determinant of matrix a is large than matrix b. If yes, print "True", otherwise print "False".
+
+Assign the list of numbesr "[1, 3, 2, 2]" to a variable named "my_numbers".
+Implement a function that computes the exponential output of a list.
+Implement a function that computes summation of a list.
+Implement a function that computes log of a number.
+Print out the log of sum exponential my_numbers.
+
+Assign the list of numbesr "[1000, 1000, 1000]" to a variable named "my_numbers".
+Implement a function that computes the exponential output of a list.
+Implement a function that computes summation of a list.
+Implement a function that computes log of a number.
+Print out the log of sum exponential my_numbers.
+
+Assign the list of numbesr "[0, 0.2, 0.4, -0.2]" to a variable named "my_numbers".
+Implement a function that computes the exponential output of a list.
+Implement a function that computes summation of a list.
+Implement a function that computes log of a number.
+Print out the log of sum exponential my_numbers.
+
+Assign the list of numbesr "[1, 0, 0, 1, 3, 2, 0, 0.2]" to a variable named "my_numbers".
+Implement a function that computes the exponential output of a list.
+Implement a function that computes summation of a list.
+Implement a function that computes log of a number.
+Print out the log of sum exponential my_numbers.
+
+Assign the list of numbesr "[0, 3, 1, 3, 2, 2, -0.2, 0.2]" to a variable named "my_numbers".
+Implement a function that computes the exponential output of a list.
+Implement a function that computes summation of a list.
+Implement a function that computes log of a number.
+Print out the log of sum exponential my_numbers.
+
+Assign the list of points "[[1, 3], [2, 2]]" to a variable named "my_points".
+Assign the integer "1" to a variable named "k".
+Implement a function that computes the distance between a point and the origin (0,0).
+Implement a function that computes the k closest points in an array to the origin and store as result.
+Compute the k closest points in my_points and print them out.
+
+Assign the list of points "[[0, 0], [1, 4], [-4, 6], [7, -1]]" to a variable named "my_points".
+Assign the integer "1" to a variable named "k".
+Implement a function that computes the distance between a point and the origin (0,0).
+Implement a function that computes the k closest points in an array to the origin and store as result.
+Compute the k closest points in my_points and print them out.
+
+Assign the list of points "[[0, 0], [1, 4], [-4, 6], [7, -1]]" to a variable named "my_points".
+Assign the integer "2" to a variable named "k".
+Implement a function that computes the distance between a point and the origin (0,0).
+Implement a function that computes the k closest points in an array to the origin and store as result.
+Compute the k closest points in my_points and print them out.
+
+Assign the list of points "[[1, 0], [0, 1], [3, 2], [0, 0.2], [0.4, -0.2]]" to a variable named "my_points".
+Assign the integer "2" to a variable named "k".
+Implement a function that computes the distance between a point and the origin (0,0).
+Implement a function that computes the k closest points in an array to the origin and store as result.
+Compute the k closest points in my_points and print them out.
+
+Assign the list of points "[[0, 3], [1, 3], [2, 2], [-0.2, 0.2], [0.5, 0.5], [1, -0.5], [2, -0.5], [2, 1]]" to a variable named "my_points".
+Assign the integer "1" to a variable named "k".
+Implement a function that computes the distance between a point and the origin (0,0).
+Implement a function that computes the k closest points in an array to the origin and store as result.
+Compute the k closest points in my_points and print them out.
+
+Implement a function called LCP() to find the longest common prefix of two strings
+Initialize a variable named lst1 with a list ['apple', 'ape', 'april'].
+Apply the function LCP() recusively to lst1
+Print the the longest common prefix of the strings in lst1
+
+Implement a function called LCP() to find the longest common prefix of two strings
+Initialize a variable named lst1 with a list ['crazy', 'car'].
+Apply the function LCP() recusively to lst1
+Print the the longest common prefix of the strings in lst1
+
+Implement a function called LCP() to find the longest common prefix of two strings
+Initialize a variable named lst1 with a list ['small', 'smart', 'smile'].
+Apply the function LCP() recusively to lst1
+Print the the longest common prefix of the strings in lst1
+
+Implement a function called LCP() to find the longest common prefix of two strings
+Initialize a variable named lst1 with a list ['inbox', 'income', 'input', 'insight'].
+Apply the function LCP() recusively to lst1
+Print the the longest common prefix of the strings in lst1
+
+Implement a function called LCP() to find the longest common prefix of two strings
+Initialize a variable named lst1 with a list ['come', 'combine', 'continue', 'compute'].
+Apply the function LCP() recusively to lst1
+Print the the longest common prefix of the strings in lst1
+
+Assigns a list [2, 3, 1, 2, 3] to a variable named lst1
+Create a frequency table of elements in lst1
+Find the elements with frequency larger than 1 and assign them to a list lst2
+Print out lst2
+
+Assigns a list ['a', 'c', 'b', 'a'] to a variable named lst1
+Create a frequency table of elements in lst1
+Find the elements with frequency larger than 1 and assign them to a list lst2
+Print out lst2
+
+Assigns a list [3, 3, 1, 1] to a variable named lst1
+Create a frequency table of elements in lst1
+Find the elements with frequency larger than 1 and assign them to a list lst2
+Print out lst2
+
+Assigns a list ['d', 'c', 'd', 'c', 'e', 'a'] to a variable named lst1
+Create a frequency table of elements in lst1
+Find the elements with frequency larger than 1 and assign them to a list lst2
+Print out lst2
+
+Assigns a list [1, 2, 3] to a variable named lst1
+Create a frequency table of elements in lst1
+Find the elements with frequency larger than 1 and assign them to a list lst2
+Print out lst2
+
+Initialize a variable named w1 with a string 'popular'
+Get the first non-repeating character in w1
+Find its corresponding index and assign it to n1
+Print out n1
+
+Initialize a variable named w1 with a string 'crunchy'
+Get the first non-repeating character in w1
+Find its corresponding index and assign it to n1
+Print out n1
+
+Initialize a variable named w1 with a string 'barbados'
+Get the first non-repeating character in w1
+Find its corresponding index and assign it to n1
+Print out n1
+
+Initialize a variable named w1 with a string 'alphabet'
+Get the first non-repeating character in w1
+Find its corresponding index and assign it to n1
+Print out n1
+
+Initialize a variable named w1 with a string 'science'
+Get the first non-repeating character in w1
+Find its corresponding index and assign it to n1
+Print out n1
+
+Assign a sentence 'Geeks for Geeks' to a variable named sentence1.
+Assign a sentence 'Learning from Geeks for Geeks' to a variable named sentence2.
+Split sentence1 into words and assign them to words1.
+Split sentence2 into words and assign them to words2.
+Find the words that appear once in both words1 and words2 and assign them to uncommon_words.
+Print uncommon_words.
+
+Assign a sentence 'apple banana mango' to a variable named sentence1.
+Assign a sentence 'banana fruits mango' to a variable named sentence2.
+Split sentence1 into words and assign them to words1.
+Split sentence2 into words and assign them to words2.
+Find the words that appear once in both words1 and words2 and assign them to uncommon_words.
+Print uncommon_words.
+
+Assign a sentence 'Seaborg spent most of his career as an educator and research scientist at the University of California, Berkeley.' to a variable named sentence1.
+Assign a sentence 'Seaborg spent most of his career as an educator and research scientist at the University of California, Los Angeles.' to a variable named sentence2.
+Split sentence1 into words and assign them to words1.
+Split sentence2 into words and assign them to words2.
+Find the words that appear once in both words1 and words2 and assign them to uncommon_words.
+Print uncommon_words.
+
+Assign a sentence 'Seaborg was the principal or co-discoverer of ten elements.' to a variable named sentence1.
+Assign a sentence 'Seaborg was the principal or co-discoverer of ten elements.' to a variable named sentence2.
+Split sentence1 into words and assign them to words1.
+Split sentence2 into words and assign them to words2.
+Find the words that appear once in both words1 and words2 and assign them to uncommon_words.
+Print uncommon_words.
+
+Assign a sentence 'Heavy rainfall began in earnest around 8 April.' to a variable named sentence1.
+Assign a sentence 'rainfall began in earnest around 8 April.' to a variable named sentence2.
+Split sentence1 into words and assign them to words1.
+Split sentence2 into words and assign them to words2.
+Find the words that appear once in both words1 and words2 and assign them to uncommon_words.
+Print uncommon_words.
+
+Assign a sentence 'Hi all, my name is Tom...I am originally from Australia.' to a variable named sentence1.
+Split sentence1 into words and assign them to words1.
+Remove punctuation in words1.
+Compute the average word length in words1 and assign it avg.
+Print avg.
+
+Assign a sentence 'I need to work very hard to learn more about algorithms in Python!' to a variable named sentence1.
+Split sentence1 into words and assign them to words1.
+Remove punctuation in words1.
+Compute the average word length in words1 and assign it avg.
+Print avg.
+
+Assign a sentence 'It received critical acclaim and continues to be praised by commentators.' to a variable named sentence1.
+Split sentence1 into words and assign them to words1.
+Remove punctuation in words1.
+Compute the average word length in words1 and assign it avg.
+Print avg.
+
+Assign a sentence 'The Minute Man was intended to be placed on a local boulder by the town of Concord.' to a variable named sentence1.
+Split sentence1 into words and assign them to words1.
+Remove punctuation in words1.
+Compute the average word length in words1 and assign it avg.
+Print avg.
+
+Assign a sentence 'During the height of the Cold War, teams from the Soviet Union and the United States independently created rutherfordium and dubnium.' to a variable named sentence1.
+Split sentence1 into words and assign them to words1.
+Remove punctuation in words1.
+Compute the average word length in words1 and assign it avg.
+Print avg.
+
+Assigns strings find and ding to variables w1 and w2 respectively
+Lower-case w1 and w2
+Count the frequency of letters in w1 and w2 and assign them to f1 and f2
+Print if f1 is equal to f2
+
+Assigns strings rat and car to variables w1 and w2 respectively
+Lower-case w1 and w2
+Count the frequency of letters in w1 and w2 and assign them to f1 and f2
+Print if f1 is equal to f2
+
+Assigns strings open and book to variables w1 and w2 respectively
+Lower-case w1 and w2
+Count the frequency of letters in w1 and w2 and assign them to f1 and f2
+Print if f1 is equal to f2
+
+Assigns strings fried and fired to variables w1 and w2 respectively
+Lower-case w1 and w2
+Count the frequency of letters in w1 and w2 and assign them to f1 and f2
+Print if f1 is equal to f2
+
+Assigns strings listen and silent to variables w1 and w2 respectively
+Lower-case w1 and w2
+Count the frequency of letters in w1 and w2 and assign them to f1 and f2
+Print if f1 is equal to f2
+
+Assign a string abc to a variable named w1
+Concatenate the elements in w1 from end to beginning and assign it to w2
+Print w2
+
+Assign a string ape to a variable named w1
+Concatenate the elements in w1 from end to beginning and assign it to w2
+Print w2
+
+Assign a string geeksforgeeks to a variable named w1
+Concatenate the elements in w1 from end to beginning and assign it to w2
+Print w2
+
+Assign a string apple to a variable named w1
+Concatenate the elements in w1 from end to beginning and assign it to w2
+Print w2
+
+Assign a string april to a variable named w1
+Concatenate the elements in w1 from end to beginning and assign it to w2
+Print w2
+
+Assign a natural number 12 to named num
+Create a list from 1 to num and assign it to a variable lst1
+Compute the sum of squared of the numbers in lst1 and assign n1
+Compute the sum of the numbers in lst1 and assign its square to n2
+Print out the difference between n1 and n2
+
+Assign a natural number 2 to named num
+Create a list from 1 to num and assign it to a variable lst1
+Compute the sum of squared of the numbers in lst1 and assign n1
+Compute the sum of the numbers in lst1 and assign its square to n2
+Print out the difference between n1 and n2
+
+Assign a natural number 10 to named num
+Create a list from 1 to num and assign it to a variable lst1
+Compute the sum of squared of the numbers in lst1 and assign n1
+Compute the sum of the numbers in lst1 and assign its square to n2
+Print out the difference between n1 and n2
+
+Assign a natural number 5 to named num
+Create a list from 1 to num and assign it to a variable lst1
+Compute the sum of squared of the numbers in lst1 and assign n1
+Compute the sum of the numbers in lst1 and assign its square to n2
+Print out the difference between n1 and n2
+
+Assign a natural number 100 to named num
+Create a list from 1 to num and assign it to a variable lst1
+Compute the sum of squared of the numbers in lst1 and assign n1
+Compute the sum of the numbers in lst1 and assign its square to n2
+Print out the difference between n1 and n2
+
+Assigns a list [0.3, 1.0, 2.0] to a variable named vec1
+Assigns a list [1.0, 2.0, 3.0] to a variable named vec2
+Normalize vec1
+Normalize vec2
+Compute the dot product of vec1 and vec2
+Print out the dot product
+
+Assigns a list [10.0, 20.0, 30.0] to a variable named vec1
+Assigns a list [0.1, 0.2, 0.3] to a variable named vec2
+Normalize vec1
+Normalize vec2
+Compute the dot product of vec1 and vec2
+Print out the dot product
+
+Assigns a list [1.1, 2.1, 3.1] to a variable named vec1
+Assigns a list [10.1, 20.2, 30.3] to a variable named vec2
+Normalize vec1
+Normalize vec2
+Compute the dot product of vec1 and vec2
+Print out the dot product
+
+Assigns a list [1.0, 2.0] to a variable named vec1
+Assigns a list [0.1, 0.2] to a variable named vec2
+Normalize vec1
+Normalize vec2
+Compute the dot product of vec1 and vec2
+Print out the dot product
+
+Assigns a list [5.3, 1.1, 2.6, 1.2, 10.2] to a variable named vec1
+Assigns a list [1.3, 2.5, 3.7, 4.8, 5.9] to a variable named vec2
+Normalize vec1
+Normalize vec2
+Compute the dot product of vec1 and vec2
+Print out the dot product
+
+Assigns a list [0.0, 0.0, 0.0] to a variable named vec1
+Assigns a list [1.0, 2.0, 3.0] to a variable named vec2
+Assigns a list [0.1, 0.2, 0.3] to a variable named vec3
+Convert vec1, vec2, and vec3 to numpy array
+Implement a function called dist() to compute the distance between two vectors
+Compute the distance between vec1 and vec2 and assign it to d1
+Compute the distance between vec1 and vec3 and assign it to d2
+Print out whether d1 is larger than d2
+
+Assigns a list [0.0, 0.0, 0.0] to a variable named vec1
+Assigns a list [10.0, 20.0, 30.0] to a variable named vec2
+Assigns a list [0.1, 0.2, 0.3] to a variable named vec3
+Convert vec1, vec2, and vec3 to numpy array
+Implement a function called dist() to compute the distance between two vectors
+Compute the distance between vec1 and vec2 and assign it to d1
+Compute the distance between vec1 and vec3 and assign it to d2
+Print out whether d1 is larger than d2
+
+Assigns a list [0.0, 0.0, 0.0] to a variable named vec1
+Assigns a list [1.1, 2.1, 3.1] to a variable named vec2
+Assigns a list [10.1, 20.2, 30.3] to a variable named vec3
+Convert vec1, vec2, and vec3 to numpy array
+Implement a function called dist() to compute the distance between two vectors
+Compute the distance between vec1 and vec2 and assign it to d1
+Compute the distance between vec1 and vec3 and assign it to d2
+Print out whether d1 is larger than d2
+
+Assigns a list [0.0, 0.0, 0.0, 0.0] to a variable named vec1
+Assigns a list [-1.0, -2.0, -3.0, -10.0] to a variable named vec2
+Assigns a list [0.1, 0.2, 0.3, 0.2] to a variable named vec3
+Convert vec1, vec2, and vec3 to numpy array
+Implement a function called dist() to compute the distance between two vectors
+Compute the distance between vec1 and vec2 and assign it to d1
+Compute the distance between vec1 and vec3 and assign it to d2
+Print out whether d1 is larger than d2
+
+Assigns a list [0.0, 0.0] to a variable named vec1
+Assigns a list [1.0, 2.0] to a variable named vec2
+Assigns a list [0.1, 0.2] to a variable named vec3
+Convert vec1, vec2, and vec3 to numpy array
+Implement a function called dist() to compute the distance between two vectors
+Compute the distance between vec1 and vec2 and assign it to d1
+Compute the distance between vec1 and vec3 and assign it to d2
+Print out whether d1 is larger than d2
+
+Initialize a variable named lst1 with a list [1, 1, 1, 1, 1].
+Initialize a variable named lst2 with a list [1, 2, 3, 4, 5].
+Create a function called std() to compute the standard deviation given a list of numbers.
+Call the function std() to calculate standard deviations for lst1 and lst2.
+Print out the smaller standard deviation.
+
+Initialize a variable named lst1 with a list [-1, -1, 1, 1].
+Initialize a variable named lst2 with a list [100, 1, -100].
+Create a function called std() to compute the standard deviation given a list of numbers.
+Call the function std() to calculate standard deviations for lst1 and lst2.
+Print out the smaller standard deviation.
+
+Initialize a variable named lst1 with a list [-100, -10, 5, 5, -10].
+Initialize a variable named lst2 with a list [100, 50, 20, -100].
+Create a function called std() to compute the standard deviation given a list of numbers.
+Call the function std() to calculate standard deviations for lst1 and lst2.
+Print out the smaller standard deviation.
+
+Initialize a variable named lst1 with a list [20, 1, 50, 6].
+Initialize a variable named lst2 with a list [-100].
+Create a function called std() to compute the standard deviation given a list of numbers.
+Call the function std() to calculate standard deviations for lst1 and lst2.
+Print out the smaller standard deviation.
+
+Initialize a variable named lst1 with a list [5, 6, 9, 100].
+Initialize a variable named lst2 with a list [-100, -100, -100, -100, -100].
+Create a function called std() to compute the standard deviation given a list of numbers.
+Call the function std() to calculate standard deviations for lst1 and lst2.
+Print out the smaller standard deviation.
+
+Initialize a variable named lst1 with a list [1, 1, 1, 1, 1].
+Initialize a variable named lst2 with a list [1, 2, 3, 4, 5].
+Create a function called mean() to compute the mean given a list of numbers.
+Call the function mean() to calculate means for lst1 and lst2.
+Print out the smaller mean.
+
+Initialize a variable named lst1 with a list [-1, -1, 1, 1].
+Initialize a variable named lst2 with a list [100, 1, -100].
+Create a function called mean() to compute the mean given a list of numbers.
+Call the function mean() to calculate means for lst1 and lst2.
+Print out the smaller mean.
+
+Initialize a variable named lst1 with a list [-100, -10, 5, 5, -10].
+Initialize a variable named lst2 with a list [100, 50, 20, -100].
+Create a function called mean() to compute the mean given a list of numbers.
+Call the function mean() to calculate means for lst1 and lst2.
+Print out the smaller mean.
+
+Initialize a variable named lst1 with a list [20, 1, 50, 6].
+Initialize a variable named lst2 with a list [-100].
+Create a function called mean() to compute the mean given a list of numbers.
+Call the function mean() to calculate means for lst1 and lst2.
+Print out the smaller mean.
+
+Initialize a variable named lst1 with a list [5, 6, 9, 100].
+Initialize a variable named lst2 with a list [-100, -100, -100, -100, -100].
+Create a function called mean() to compute the mean given a list of numbers.
+Call the function mean() to calculate means for lst1 and lst2.
+Print out the smaller mean.
+
+Initialize a variable named lst1 with a list [1, 1, 1, 1, 1].
+Compute the mean and the standard deviation for lst1 and assign it variable avg and sd, respectively
+Compute the coeffeicient of variation
+Print out the coefficient of variation
+
+Initialize a variable named lst1 with a list [-100, -10, 5, 5, -10].
+Compute the mean and the standard deviation for lst1 and assign it variable avg and sd, respectively
+Compute the coeffeicient of variation
+Print out the coefficient of variation
+
+Initialize a variable named lst1 with a list [-1, 1, -10, 10, 2, 3, 5].
+Compute the mean and the standard deviation for lst1 and assign it variable avg and sd, respectively
+Compute the coeffeicient of variation
+Print out the coefficient of variation
+
+Initialize a variable named lst1 with a list [-5, 7, -3, -4, 9, 10, -1, 11].
+Compute the mean and the standard deviation for lst1 and assign it variable avg and sd, respectively
+Compute the coeffeicient of variation
+Print out the coefficient of variation
+
+Initialize a variable named lst1 with a list [20, 1, 50, 6].
+Compute the mean and the standard deviation for lst1 and assign it variable avg and sd, respectively
+Compute the coeffeicient of variation
+Print out the coefficient of variation
+
+Initialize a variable named lst1 with a list [0, 0].
+Get the absolute value of every element in lst1 and assign to a lst2
+Compute the sum of lst2 and assign to l1
+Print out l1
+
+Initialize a variable named lst1 with a list [1, 1].
+Get the absolute value of every element in lst1 and assign to a lst2
+Compute the sum of lst2 and assign to l1
+Print out l1
+
+Initialize a variable named lst1 with a list [-1, 1, -100, 100].
+Get the absolute value of every element in lst1 and assign to a lst2
+Compute the sum of lst2 and assign to l1
+Print out l1
+
+Initialize a variable named lst1 with a list [0, 0, 59, 1, 40].
+Get the absolute value of every element in lst1 and assign to a lst2
+Compute the sum of lst2 and assign to l1
+Print out l1
+
+Initialize a variable named lst1 with a list [-50, -10, 40, 200, 1000].
+Get the absolute value of every element in lst1 and assign to a lst2
+Compute the sum of lst2 and assign to l1
+Print out l1
+
+Assigns a list [0.3, 1.0, 2.0, -2.0, 4.0, -5.0] to a variable named lst1
+Compute the sample mean of lst1
+Compute the sample standard deviation of lst1
+Compute the z-statistic to test whether its mean is 0
+Print out the z-statistic
+
+Assigns a list [1.3, 5.0, 2.1, -2.4, 4.1, 5.1] to a variable named lst1
+Compute the sample mean of lst1
+Compute the sample standard deviation of lst1
+Compute the z-statistic to test whether its mean is 0
+Print out the z-statistic
+
+Assigns a list [1.3, 15.0, 2.9] to a variable named lst1
+Compute the sample mean of lst1
+Compute the sample standard deviation of lst1
+Compute the z-statistic to test whether its mean is 0
+Print out the z-statistic
+
+Assigns a list [0.3, -1.0, -2.0, 5.0, 1.0, 5.1] to a variable named lst1
+Compute the sample mean of lst1
+Compute the sample standard deviation of lst1
+Compute the z-statistic to test whether its mean is 0
+Print out the z-statistic
+
+Assigns a list [10.3, 12.0, 20.0, 21.0, 40.0, 5.0, 10.0, 20.0, 23.0, 15.0] to a variable named lst1
+Compute the sample mean of lst1
+Compute the sample standard deviation of lst1
+Compute the z-statistic to test whether its mean is 0
+Print out the z-statistic
+
+Assign a list [3, -3, 2, -2] to named lst1
+Separate lst1 into two lists, lst_pos and lst_neg which contain all the positive numbers and all the negative numbers repsectively
+Concatenate lst_pos and lst_neg and assign it lst2
+Print out lst2
+
+Assign a list [-5, 7, -3, -4, 9, 10, -1, 11] to named lst1
+Separate lst1 into two lists, lst_pos and lst_neg which contain all the positive numbers and all the negative numbers repsectively
+Concatenate lst_pos and lst_neg and assign it lst2
+Print out lst2
+
+Assign a list [-1000, 11] to named lst1
+Separate lst1 into two lists, lst_pos and lst_neg which contain all the positive numbers and all the negative numbers repsectively
+Concatenate lst_pos and lst_neg and assign it lst2
+Print out lst2
+
+Assign a list [9, -10, 8, 2, -77, -50, 11, 6] to named lst1
+Separate lst1 into two lists, lst_pos and lst_neg which contain all the positive numbers and all the negative numbers repsectively
+Concatenate lst_pos and lst_neg and assign it lst2
+Print out lst2
+
+Assign a list [-50, -70, -30, 4, 3, -100, 1] to named lst1
+Separate lst1 into two lists, lst_pos and lst_neg which contain all the positive numbers and all the negative numbers repsectively
+Concatenate lst_pos and lst_neg and assign it lst2
+Print out lst2
+
+Initialize a variable named w with a string 2a4B
+Lower every character in w
+Replace every alphabetical characters in w with ''
+Print out the new word after substitution
+
+Initialize a variable named w with a string br2ace
+Lower every character in w
+Replace every alphabetical characters in w with ''
+Print out the new word after substitution
+
+Initialize a variable named w with a string 100
+Lower every character in w
+Replace every alphabetical characters in w with ''
+Print out the new word after substitution
+
+Initialize a variable named w with a string 3g4lc
+Lower every character in w
+Replace every alphabetical characters in w with ''
+Print out the new word after substitution
+
+Initialize a variable named w with a string 12Apple0
+Lower every character in w
+Replace every alphabetical characters in w with ''
+Print out the new word after substitution
+
+Import and initialize a numpy array "X" with the values [[0.884, 0.209], [0.067, 0.381], [0.503, 0.821], [0.306, 0.592], [0.417, 0.519]].
+Calculate the dot product between all rows and store the result to "Xn", where (i, j) element stores the dot product between i-th and j-th  row of "X".
+Set the diagonal elements of "Xn" to 0.
+Print out the maximum value (cast as a float) in "Xn".
+
+Import and initialize a numpy array "X" with the values [[2, 2], [1, 0], [0, 4], [2, 4], [1, 1], [0, 3], [1, 0], [1, 0], [1, 3], [0, 1]].
+Calculate the dot product between all rows and store the result to "Xn", where (i, j) element stores the dot product between i-th and j-th  row of "X".
+Set the diagonal elements of "Xn" to 0.
+Print out the maximum value (cast as a float) in "Xn".
+
+Import and initialize a numpy array "X" with the values [[1, 0, 3], [4, 3, 4], [4, 1, 2], [0, 1, 0], [3, 3, 2]].
+Calculate the dot product between all rows and store the result to "Xn", where (i, j) element stores the dot product between i-th and j-th  row of "X".
+Set the diagonal elements of "Xn" to 0.
+Print out the maximum value (cast as a float) in "Xn".
+
+Import and initialize a numpy array "X" with the values [[1.022, -0.668], [-1.082, 0.063], [-0.181, 0.841], [0.891, 1.533], [1.195, -1.69]].
+Calculate the dot product between all rows and store the result to "Xn", where (i, j) element stores the dot product between i-th and j-th  row of "X".
+Set the diagonal elements of "Xn" to 0.
+Print out the maximum value (cast as a float) in "Xn".
+
+Import and initialize a numpy array "X" with the values [[-8, 2, -3], [2, -10, -5], [-5, 5, -8], [-3, 2, -2], [3, 6, 2]].
+Calculate the dot product between all rows and store the result to "Xn", where (i, j) element stores the dot product between i-th and j-th  row of "X".
+Set the diagonal elements of "Xn" to 0.
+Print out the maximum value (cast as a float) in "Xn".
+
+Initialize numpy arrays "pred" with the values [1, 1, 1, 1, 1, 0, 1, 0, 0, 0], "y" with the values [0, 1, 1, 0, 1, 0, 0, 0, 0, 1].
+Compare the equivalence of two arrays and store the results as "match".
+Assign the boolean array for whether "y" is greater than 0 to a variable "non_zero".
+Perform the logical "AND" operation between "match" and "non_zero", store the result as "correct".
+Compute the precision by dividing the number of True values in "correct" by that in "pred", and store as "prec".
+Compute the recall by dividing the number of True values in "correct" by the number of actual non-zero values in "y", and store the result as "rec".
+Calculate the harmonic mean between "prec" and "rec" and print out the value.
+
+Initialize numpy arrays "pred" with the values [0, 1, 1, 1, 1, 0, 1, 0, 0, 0], "y" with the values [0, 1, 1, 0, 1, 0, 0, 0, 0, 0].
+Compare the equivalence of two arrays and store the results as "match".
+Assign the boolean array for whether "y" is greater than 0 to a variable "non_zero".
+Perform the logical "AND" operation between "match" and "non_zero", store the result as "correct".
+Compute the precision by dividing the number of True values in "correct" by that in "pred", and store as "prec".
+Compute the recall by dividing the number of True values in "correct" by the number of actual non-zero values in "y", and store the result as "rec".
+Calculate the harmonic mean between "prec" and "rec" and print out the value.
+
+Initialize numpy arrays "pred" with the values [0, 1, 0, 0, 0], "y" with the values [0, 1, 0, 0, 0].
+Compare the equivalence of two arrays and store the results as "match".
+Assign the boolean array for whether "y" is greater than 0 to a variable "non_zero".
+Perform the logical "AND" operation between "match" and "non_zero", store the result as "correct".
+Compute the precision by dividing the number of True values in "correct" by that in "pred", and store as "prec".
+Compute the recall by dividing the number of True values in "correct" by the number of actual non-zero values in "y", and store the result as "rec".
+Calculate the harmonic mean between "prec" and "rec" and print out the value.
+
+Initialize numpy arrays "pred" with the values [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "y" with the values [0, 0, 0, 0, 0, 1, 0, 0, 0, 0].
+Compare the equivalence of two arrays and store the results as "match".
+Assign the boolean array for whether "y" is greater than 0 to a variable "non_zero".
+Perform the logical "AND" operation between "match" and "non_zero", store the result as "correct".
+Compute the precision by dividing the number of True values in "correct" by that in "pred", and store as "prec".
+Compute the recall by dividing the number of True values in "correct" by the number of actual non-zero values in "y", and store the result as "rec".
+Calculate the harmonic mean between "prec" and "rec" and print out the value.
+
+Initialize numpy arrays "pred" with the values [0, 1, 0, 0, 0], "y" with the values [0, 1, 1, 1, 1].
+Compare the equivalence of two arrays and store the results as "match".
+Assign the boolean array for whether "y" is greater than 0 to a variable "non_zero".
+Perform the logical "AND" operation between "match" and "non_zero", store the result as "correct".
+Compute the precision by dividing the number of True values in "correct" by that in "pred", and store as "prec".
+Compute the recall by dividing the number of True values in "correct" by the number of actual non-zero values in "y", and store the result as "rec".
+Calculate the harmonic mean between "prec" and "rec" and print out the value.
+
+Initialize a string named "concat" with ACapitalLetterWords.
+Import the regex module and define a pattern "pat" that matches capital alphabets that can be referenced as a group.
+Find all the matches in "concat" with "pat", and insert an additional whitespace before the matched character with, then store the result to "result".
+Print out "result".
+
+Initialize a string named "concat" with camelCaseMethod.
+Import the regex module and define a pattern "pat" that matches capital alphabets that can be referenced as a group.
+Find all the matches in "concat" with "pat", and insert an additional whitespace before the matched character with, then store the result to "result".
+Print out "result".
+
+Initialize a string named "concat" with ABCDE.
+Import the regex module and define a pattern "pat" that matches capital alphabets that can be referenced as a group.
+Find all the matches in "concat" with "pat", and insert an additional whitespace before the matched character with, then store the result to "result".
+Print out "result".
+
+Initialize a string named "concat" with splitDB.
+Import the regex module and define a pattern "pat" that matches capital alphabets that can be referenced as a group.
+Find all the matches in "concat" with "pat", and insert an additional whitespace before the matched character with, then store the result to "result".
+Print out "result".
+
+Initialize a string named "concat" with donotsplitanything.
+Import the regex module and define a pattern "pat" that matches capital alphabets that can be referenced as a group.
+Find all the matches in "concat" with "pat", and insert an additional whitespace before the matched character with, then store the result to "result".
+Print out "result".
+
+Initialize a list "x" with the values [0, 0, 0, 0, 100].
+Assuming the normal distribution, calculate mean and standard deviation of "x" using numpy, store the results to "mean" and "std".
+Find the values in x that are either smaller than mean - 2 * std or larger than mean + 2 * std, and store the results to "results".
+Sort "results" in ascending order and print it out.
+
+Initialize a list "x" with the values [-100, 0, 1, 2, 3, 4, -1, -2, -10, 45, 120].
+Assuming the normal distribution, calculate mean and standard deviation of "x" using numpy, store the results to "mean" and "std".
+Find the values in x that are either smaller than mean - 2 * std or larger than mean + 2 * std, and store the results to "results".
+Sort "results" in ascending order and print it out.
+
+Initialize a list "x" with the values [3, -1, 0, 3, -3, 5, -2, 0, 0, -3, 1, -4, 4, -7, -1, -1, 1, -1, -2, -3].
+Assuming the normal distribution, calculate mean and standard deviation of "x" using numpy, store the results to "mean" and "std".
+Find the values in x that are either smaller than mean - 2 * std or larger than mean + 2 * std, and store the results to "results".
+Sort "results" in ascending order and print it out.
+
+Initialize a list "x" with the values [0, 0, 4, 0, 3, 0, 0, -7, -2, 1, 1, -1, -7, -3, 1, 2, 0, -1, 4, 4].
+Assuming the normal distribution, calculate mean and standard deviation of "x" using numpy, store the results to "mean" and "std".
+Find the values in x that are either smaller than mean - 2 * std or larger than mean + 2 * std, and store the results to "results".
+Sort "results" in ascending order and print it out.
+
+Initialize a list "x" with the values [4, -2, -2, -2, 0, 2, 3, -3, -3, 4, 1, 0, 2, 1, 4, -2, 2, -5, -4, 3, 0, 0, -2, -1, -1, 0, -2, 1, 1, -3].
+Assuming the normal distribution, calculate mean and standard deviation of "x" using numpy, store the results to "mean" and "std".
+Find the values in x that are either smaller than mean - 2 * std or larger than mean + 2 * std, and store the results to "results".
+Sort "results" in ascending order and print it out.
+
+Initialize a list "x" with the values [4, 2, 3, 1, 0, 3, 3, 3, 2, 1]
+Obtain a list of unique elements in x and sort them, store the results to "vocab".
+Create a hash map from the values of "vocab" to their indices and store the result to "v2i".
+Initialize a numpy array of zeros named "features" whose row size is the length of x and column size is the length of "index", with a data type of int.
+For each element in x, assign 1 to (i, j) location of features, where i is the index of current element and j is the mapped value of the current element using "v2i".
+Print out "features".
+
+Initialize a list "x" with the values [0, 1, 2]
+Obtain a list of unique elements in x and sort them, store the results to "vocab".
+Create a hash map from the values of "vocab" to their indices and store the result to "v2i".
+Initialize a numpy array of zeros named "features" whose row size is the length of x and column size is the length of "index", with a data type of int.
+For each element in x, assign 1 to (i, j) location of features, where i is the index of current element and j is the mapped value of the current element using "v2i".
+Print out "features".
+
+Initialize a list "x" with the values [1, 1, 1, 1, 1]
+Obtain a list of unique elements in x and sort them, store the results to "vocab".
+Create a hash map from the values of "vocab" to their indices and store the result to "v2i".
+Initialize a numpy array of zeros named "features" whose row size is the length of x and column size is the length of "index", with a data type of int.
+For each element in x, assign 1 to (i, j) location of features, where i is the index of current element and j is the mapped value of the current element using "v2i".
+Print out "features".
+
+Initialize a list "x" with the values [0, 0, 0, 0, 0]
+Obtain a list of unique elements in x and sort them, store the results to "vocab".
+Create a hash map from the values of "vocab" to their indices and store the result to "v2i".
+Initialize a numpy array of zeros named "features" whose row size is the length of x and column size is the length of "index", with a data type of int.
+For each element in x, assign 1 to (i, j) location of features, where i is the index of current element and j is the mapped value of the current element using "v2i".
+Print out "features".
+
+Initialize a list "x" with the values [0, 0, 1, 1]
+Obtain a list of unique elements in x and sort them, store the results to "vocab".
+Create a hash map from the values of "vocab" to their indices and store the result to "v2i".
+Initialize a numpy array of zeros named "features" whose row size is the length of x and column size is the length of "index", with a data type of int.
+For each element in x, assign 1 to (i, j) location of features, where i is the index of current element and j is the mapped value of the current element using "v2i".
+Print out "features".
+
+Initialize a variable "x" with ['a', 'b', 'c'].
+Apply the function "len" to each element in the list and store the results to "mapped".
+Convert each element in "mapped" into string.
+Define "results" with a dictionary whose keys are the unique values in "mapped" and values are empty lists.
+Looping over the zip of "mapped" and "x", append the value in "x" to the value of "results" using the value in "mapped" as the key.
+Print out the "results".
+
+Initialize a variable "x" with ['apple', 'banana', 'orange', 'peach'].
+Apply the function "len" to each element in the list and store the results to "mapped".
+Convert each element in "mapped" into string.
+Define "results" with a dictionary whose keys are the unique values in "mapped" and values are empty lists.
+Looping over the zip of "mapped" and "x", append the value in "x" to the value of "results" using the value in "mapped" as the key.
+Print out the "results".
+
+Initialize a variable "x" with [1, 2, 3, 'a', 'b', 'c'].
+Apply the function "type" to each element in the list and store the results to "mapped".
+Convert each element in "mapped" into string.
+Define "results" with a dictionary whose keys are the unique values in "mapped" and values are empty lists.
+Looping over the zip of "mapped" and "x", append the value in "x" to the value of "results" using the value in "mapped" as the key.
+Print out the "results".
+
+Initialize a variable "x" with [[1, 2, 3], 'a', 'b', 'c'].
+Apply the function "len" to each element in the list and store the results to "mapped".
+Convert each element in "mapped" into string.
+Define "results" with a dictionary whose keys are the unique values in "mapped" and values are empty lists.
+Looping over the zip of "mapped" and "x", append the value in "x" to the value of "results" using the value in "mapped" as the key.
+Print out the "results".
+
+Initialize a variable "x" with [1, 2, 3, '1', '2', '3'].
+Apply the function "str" to each element in the list and store the results to "mapped".
+Convert each element in "mapped" into string.
+Define "results" with a dictionary whose keys are the unique values in "mapped" and values are empty lists.
+Looping over the zip of "mapped" and "x", append the value in "x" to the value of "results" using the value in "mapped" as the key.
+Print out the "results".
+
+Initialize a variable "best" with -1, "array" with [1, 2, 3, 4, 5]
+Assign the first element of "array" to a variable named "minimum".
+In a for loop over "array" starting from the second element, do 1) update "best" when the element minus "minimum" is larger than "best", and 2) update "minimum" with the value of element if it is smaller than "minimum".
+Print out "best".
+
+Initialize a variable "best" with -1, "array" with [5, 2, 3, 4, 0]
+Assign the first element of "array" to a variable named "minimum".
+In a for loop over "array" starting from the second element, do 1) update "best" when the element minus "minimum" is larger than "best", and 2) update "minimum" with the value of element if it is smaller than "minimum".
+Print out "best".
+
+Initialize a variable "best" with -1, "array" with [12, 7, 8, 5, 9, 5, 14, 9, 8, 9]
+Assign the first element of "array" to a variable named "minimum".
+In a for loop over "array" starting from the second element, do 1) update "best" when the element minus "minimum" is larger than "best", and 2) update "minimum" with the value of element if it is smaller than "minimum".
+Print out "best".
+
+Initialize a variable "best" with -1, "array" with [1, 10, 1, 10, 0]
+Assign the first element of "array" to a variable named "minimum".
+In a for loop over "array" starting from the second element, do 1) update "best" when the element minus "minimum" is larger than "best", and 2) update "minimum" with the value of element if it is smaller than "minimum".
+Print out "best".
+
+Initialize a variable "best" with -1, "array" with [1, 2, 3, 2, 1]
+Assign the first element of "array" to a variable named "minimum".
+In a for loop over "array" starting from the second element, do 1) update "best" when the element minus "minimum" is larger than "best", and 2) update "minimum" with the value of element if it is smaller than "minimum".
+Print out "best".
+
+Initialize a variable "target" with 1, a variable "nums" with [1, 2, 1, 2, 1], and "result" with an empty list.
+Enumerating over "nums", compare each element with "target" and add its index position  to " result" if they are equivalent.
+Print out the sum of elements in "result".
+
+Initialize a variable "target" with 1, a variable "nums" with [0, 0, 0], and "result" with an empty list.
+Enumerating over "nums", compare each element with "target" and add its index position  to " result" if they are equivalent.
+Print out the sum of elements in "result".
+
+Initialize a variable "target" with 1, a variable "nums" with [1.1, 2, 3, 2, 1], and "result" with an empty list.
+Enumerating over "nums", compare each element with "target" and add its index position  to " result" if they are equivalent.
+Print out the sum of elements in "result".
+
+Initialize a variable "target" with 1, a variable "nums" with [1, 2, 3, 2, 1], and "result" with an empty list.
+Enumerating over "nums", compare each element with "target" and add its index position  to " result" if they are equivalent.
+Print out the sum of elements in "result".
+
+Initialize a variable "target" with 1, a variable "nums" with [1, '1', 2, '1'], and "result" with an empty list.
+Enumerating over "nums", compare each element with "target" and add its index position  to " result" if they are equivalent.
+Print out the sum of elements in "result".
+
+Initialize a variable "nums" with [1, 3, 4] and a variable "N" with 4.
+Initialize a variable "all_nums" which is a set of numbers between 1 and N.
+Subtract the set of numbers in "nums" from "all_nums", and store the result to "diff"
+Pop the only element in "diff" print it out.
+
+Initialize a variable "nums" with [1, 2, 3, 4] and a variable "N" with 5.
+Initialize a variable "all_nums" which is a set of numbers between 1 and N.
+Subtract the set of numbers in "nums" from "all_nums", and store the result to "diff"
+Pop the only element in "diff" print it out.
+
+Initialize a variable "nums" with [4, 3, 9, 7, 8, 5, 2, 1, 10] and a variable "N" with 10.
+Initialize a variable "all_nums" which is a set of numbers between 1 and N.
+Subtract the set of numbers in "nums" from "all_nums", and store the result to "diff"
+Pop the only element in "diff" print it out.
+
+Initialize a variable "nums" with [6, 15, 13, 2, 14, 17, 7, 16, 11, 9, 3, 10, 8, 5, 12, 1, 20, 4, 19] and a variable "N" with 20.
+Initialize a variable "all_nums" which is a set of numbers between 1 and N.
+Subtract the set of numbers in "nums" from "all_nums", and store the result to "diff"
+Pop the only element in "diff" print it out.
+
+Initialize a variable "nums" with [] and a variable "N" with 1.
+Initialize a variable "all_nums" which is a set of numbers between 1 and N.
+Subtract the set of numbers in "nums" from "all_nums", and store the result to "diff"
+Pop the only element in "diff" print it out.
+
+Assign [[1, 2, 3, 4, 5], [0, 1, 3, 5, 7], [0, 2, 3, 4, 5]] to a variable named "X".
+Initialize a variable named "common" with a set of unique elements in the first index of "X".
+Iterating over "X", update "common" with an intersection of "common" and the set of unique elements in the current index of "X"
+Cast "common" as a list and print it out.
+
+Assign [[1, 1], [1, 1]] to a variable named "X".
+Initialize a variable named "common" with a set of unique elements in the first index of "X".
+Iterating over "X", update "common" with an intersection of "common" and the set of unique elements in the current index of "X"
+Cast "common" as a list and print it out.
+
+Assign [[1, 2, 3], [2, 3, 4], [3, 4, 5]] to a variable named "X".
+Initialize a variable named "common" with a set of unique elements in the first index of "X".
+Iterating over "X", update "common" with an intersection of "common" and the set of unique elements in the current index of "X"
+Cast "common" as a list and print it out.
+
+Assign [[1, 12, 56, 21, 5], [21, 2, 6, 11, 7], [5, 7, 13, 8, 21], [5, 21, -5, 6, 8]] to a variable named "X".
+Initialize a variable named "common" with a set of unique elements in the first index of "X".
+Iterating over "X", update "common" with an intersection of "common" and the set of unique elements in the current index of "X"
+Cast "common" as a list and print it out.
+
+Assign [[1, 2, 3, 4, 5], [1, 2, 3, 4, 5]] to a variable named "X".
+Initialize a variable named "common" with a set of unique elements in the first index of "X".
+Iterating over "X", update "common" with an intersection of "common" and the set of unique elements in the current index of "X"
+Cast "common" as a list and print it out.
+
+Initialize a variable "start" with 1, and "seq" with a list containing 1.
+While the value is not 1, perform the following: if "start" is an even number, divide by 2, otherwise multiply by 3 and add 1, then store the number to "start" as well as appending to "seq".
+Store the sum of all numbers in "seq" to "results".
+Print out the "results".
+
+Initialize a variable "start" with 9, and "seq" with a list containing 9.
+While the value is not 1, perform the following: if "start" is an even number, divide by 2, otherwise multiply by 3 and add 1, then store the number to "start" as well as appending to "seq".
+Store the sum of all numbers in "seq" to "results".
+Print out the "results".
+
+Initialize a variable "start" with 27, and "seq" with a list containing 27.
+While the value is not 1, perform the following: if "start" is an even number, divide by 2, otherwise multiply by 3 and add 1, then store the number to "start" as well as appending to "seq".
+Store the sum of all numbers in "seq" to "results".
+Print out the "results".
+
+Initialize a variable "start" with 28, and "seq" with a list containing 28.
+While the value is not 1, perform the following: if "start" is an even number, divide by 2, otherwise multiply by 3 and add 1, then store the number to "start" as well as appending to "seq".
+Store the sum of all numbers in "seq" to "results".
+Print out the "results".
+
+Initialize a variable "start" with 123456789, and "seq" with a list containing 123456789.
+While the value is not 1, perform the following: if "start" is an even number, divide by 2, otherwise multiply by 3 and add 1, then store the number to "start" as well as appending to "seq".
+Store the sum of all numbers in "seq" to "results".
+Print out the "results".
+
+Define a variable "pos" with "A", "swap" with ['AB', 'BC', 'CA', 'BC', 'AC'].
+Write a function "move" that takes two strings x and y as input, and replace any appearance of x in y with an empty string, then return y.
+For each element in "swap", if it contains "pos", call "move" on "pos" and the current element and store the result to "pos".
+Print out "pos".
+
+Define a variable "pos" with "B", "swap" with ['AC', 'CA'].
+Write a function "move" that takes two strings x and y as input, and replace any appearance of x in y with an empty string, then return y.
+For each element in "swap", if it contains "pos", call "move" on "pos" and the current element and store the result to "pos".
+Print out "pos".
+
+Define a variable "pos" with "C", "swap" with ['AB', 'BC', 'CA', 'BC', 'AC', 'AB', 'CA', 'BC', 'AC', 'BA'].
+Write a function "move" that takes two strings x and y as input, and replace any appearance of x in y with an empty string, then return y.
+For each element in "swap", if it contains "pos", call "move" on "pos" and the current element and store the result to "pos".
+Print out "pos".
+
+Define a variable "pos" with "C", "swap" with ['AB', 'AC'].
+Write a function "move" that takes two strings x and y as input, and replace any appearance of x in y with an empty string, then return y.
+For each element in "swap", if it contains "pos", call "move" on "pos" and the current element and store the result to "pos".
+Print out "pos".
+
+Define a variable "pos" with "A", "swap" with [].
+Write a function "move" that takes two strings x and y as input, and replace any appearance of x in y with an empty string, then return y.
+For each element in "swap", if it contains "pos", call "move" on "pos" and the current element and store the result to "pos".
+Print out "pos".
+
+Initialize a variable "stack" with an empty list, and "num" with 123 as a string.
+For each chracter in "num", append the character to "stack".
+Assign an empty string to a variable "result", and concatenate characters popped from the last element of "stack" to "result" until "stack" is empty.
+Cast "result" as integer and print it out.
+
+Initialize a variable "stack" with an empty list, and "num" with 123456789 as a string.
+For each chracter in "num", append the character to "stack".
+Assign an empty string to a variable "result", and concatenate characters popped from the last element of "stack" to "result" until "stack" is empty.
+Cast "result" as integer and print it out.
+
+Initialize a variable "stack" with an empty list, and "num" with 100 as a string.
+For each chracter in "num", append the character to "stack".
+Assign an empty string to a variable "result", and concatenate characters popped from the last element of "stack" to "result" until "stack" is empty.
+Cast "result" as integer and print it out.
+
+Initialize a variable "stack" with an empty list, and "num" with 0 as a string.
+For each chracter in "num", append the character to "stack".
+Assign an empty string to a variable "result", and concatenate characters popped from the last element of "stack" to "result" until "stack" is empty.
+Cast "result" as integer and print it out.
+
+Initialize a variable "stack" with an empty list, and "num" with 1230 as a string.
+For each chracter in "num", append the character to "stack".
+Assign an empty string to a variable "result", and concatenate characters popped from the last element of "stack" to "result" until "stack" is empty.
+Cast "result" as integer and print it out.
+
+Assign ['<<', '>>>'] to a variable "arrows", then concatenate all the strings in "arrows" and store the result to "joined_arrow".
+Count the numbers of left-facing arrow and right-facing arrow and store the results to "left" and "right", respectively.
+If "right" is larger than "left", print out the string that consists of (right - left) right-facing arrows.
+Otherwise, print out the string that consists of (left - right) left-facing arrows.
+
+Assign ['<<<', '>>'] to a variable "arrows", then concatenate all the strings in "arrows" and store the result to "joined_arrow".
+Count the numbers of left-facing arrow and right-facing arrow and store the results to "left" and "right", respectively.
+If "right" is larger than "left", print out the string that consists of (right - left) right-facing arrows.
+Otherwise, print out the string that consists of (left - right) left-facing arrows.
+
+Assign ['<<', '>>', '<<', '>>>', '>>>'] to a variable "arrows", then concatenate all the strings in "arrows" and store the result to "joined_arrow".
+Count the numbers of left-facing arrow and right-facing arrow and store the results to "left" and "right", respectively.
+If "right" is larger than "left", print out the string that consists of (right - left) right-facing arrows.
+Otherwise, print out the string that consists of (left - right) left-facing arrows.
+
+Assign ['<<', '>>'] to a variable "arrows", then concatenate all the strings in "arrows" and store the result to "joined_arrow".
+Count the numbers of left-facing arrow and right-facing arrow and store the results to "left" and "right", respectively.
+If "right" is larger than "left", print out the string that consists of (right - left) right-facing arrows.
+Otherwise, print out the string that consists of (left - right) left-facing arrows.
+
+Assign ['<<<<<<<<<<<<', '>'] to a variable "arrows", then concatenate all the strings in "arrows" and store the result to "joined_arrow".
+Count the numbers of left-facing arrow and right-facing arrow and store the results to "left" and "right", respectively.
+If "right" is larger than "left", print out the string that consists of (right - left) right-facing arrows.
+Otherwise, print out the string that consists of (left - right) left-facing arrows.
+
+Initialize an array "array" with [1, 2, 3, 4, 5, 6, 8].
+Calculate the difference of maximum and minimum values in "array" and store the value to "diff".
+Check if "diff" is included in "array" and store the boolean value to "result".
+Print out "result"
+
+Initialize an array "array" with [1, 7, 8].
+Calculate the difference of maximum and minimum values in "array" and store the value to "diff".
+Check if "diff" is included in "array" and store the boolean value to "result".
+Print out "result"
+
+Initialize an array "array" with [10].
+Calculate the difference of maximum and minimum values in "array" and store the value to "diff".
+Check if "diff" is included in "array" and store the boolean value to "result".
+Print out "result"
+
+Initialize an array "array" with [0, 1].
+Calculate the difference of maximum and minimum values in "array" and store the value to "diff".
+Check if "diff" is included in "array" and store the boolean value to "result".
+Print out "result"
+
+Initialize an array "array" with [1000, 2, 3, 4, 5, 6, 1000000].
+Calculate the difference of maximum and minimum values in "array" and store the value to "diff".
+Check if "diff" is included in "array" and store the boolean value to "result".
+Print out "result"
+
+Initialize a variable "original" with "aabbddcc"
+Import OrderedDict from collections module, then initalize a variable "dic" with an OrderedDict with letters in "original" as keys and 0 as the value for each key.
+Iterating over each character in "original", increment the value in "dic" whose key is the character.
+Initialize an empty string to a variable "result", then iterate over items in "dic" and append the key and the value as strings to "result".
+Print out "result".
+
+Initialize a variable "original" with "abc"
+Import OrderedDict from collections module, then initalize a variable "dic" with an OrderedDict with letters in "original" as keys and 0 as the value for each key.
+Iterating over each character in "original", increment the value in "dic" whose key is the character.
+Initialize an empty string to a variable "result", then iterate over items in "dic" and append the key and the value as strings to "result".
+Print out "result".
+
+Initialize a variable "original" with "zzzzzyyyyyxxxxxa"
+Import OrderedDict from collections module, then initalize a variable "dic" with an OrderedDict with letters in "original" as keys and 0 as the value for each key.
+Iterating over each character in "original", increment the value in "dic" whose key is the character.
+Initialize an empty string to a variable "result", then iterate over items in "dic" and append the key and the value as strings to "result".
+Print out "result".
+
+Initialize a variable "original" with "aaa"
+Import OrderedDict from collections module, then initalize a variable "dic" with an OrderedDict with letters in "original" as keys and 0 as the value for each key.
+Iterating over each character in "original", increment the value in "dic" whose key is the character.
+Initialize an empty string to a variable "result", then iterate over items in "dic" and append the key and the value as strings to "result".
+Print out "result".
+
+Initialize a variable "original" with ""
+Import OrderedDict from collections module, then initalize a variable "dic" with an OrderedDict with letters in "original" as keys and 0 as the value for each key.
+Iterating over each character in "original", increment the value in "dic" whose key is the character.
+Initialize an empty string to a variable "result", then iterate over items in "dic" and append the key and the value as strings to "result".
+Print out "result".
+
+Import re and define a regular expression that matches an email address.
+Search for an email address in "abc@example.com." and store the first match to a variable "address".
+Remove the substring starting from the @ symbol from "address".
+Replace non-alphabetical symbols with a whitespace in "address".
+Print out "address".
+
+Import re and define a regular expression that matches an email address.
+Search for an email address in "a.b.c@example.com test." and store the first match to a variable "address".
+Remove the substring starting from the @ symbol from "address".
+Replace non-alphabetical symbols with a whitespace in "address".
+Print out "address".
+
+Import re and define a regular expression that matches an email address.
+Search for an email address in "a1b2c3.d4e_f6@example.com." and store the first match to a variable "address".
+Remove the substring starting from the @ symbol from "address".
+Replace non-alphabetical symbols with a whitespace in "address".
+Print out "address".
+
+Import re and define a regular expression that matches an email address.
+Search for an email address in "abc@example.com test. def@abc.def." and store the first match to a variable "address".
+Remove the substring starting from the @ symbol from "address".
+Replace non-alphabetical symbols with a whitespace in "address".
+Print out "address".
+
+Import re and define a regular expression that matches an email address.
+Search for an email address in "example@@example.com test, example_email@abc.io ." and store the first match to a variable "address".
+Remove the substring starting from the @ symbol from "address".
+Replace non-alphabetical symbols with a whitespace in "address".
+Print out "address".
+
+Assign the list of numbers "[1, 3, 2, 2]" to a variable named "my_numbers".
+Implement a function that returns the distinct elements of a list.
+Compute the distinct elements of my_numbers and store as unique_list.
+Print out the second largest element in unique_list. If the second largest does not exit, print out the maximum.
+
+Assign the list of numbers "[1000, 1000, 1000]" to a variable named "my_numbers".
+Implement a function that returns the distinct elements of a list.
+Compute the distinct elements of my_numbers and store as unique_list.
+Print out the second largest element in unique_list. If the second largest does not exit, print out the maximum.
+
+Assign the list of numbers "[0, 0.2, 0.4, -0.2]" to a variable named "my_numbers".
+Implement a function that returns the distinct elements of a list.
+Compute the distinct elements of my_numbers and store as unique_list.
+Print out the second largest element in unique_list. If the second largest does not exit, print out the maximum.
+
+Assign the list of numbers "[3, 3, 3, 2, 2, 1]" to a variable named "my_numbers".
+Implement a function that returns the distinct elements of a list.
+Compute the distinct elements of my_numbers and store as unique_list.
+Print out the second largest element in unique_list. If the second largest does not exit, print out the maximum.
+
+Assign the list of numbers "[0, 3, 1, 3, 2, 2, -0.2, 0.2]" to a variable named "my_numbers".
+Implement a function that returns the distinct elements of a list.
+Compute the distinct elements of my_numbers and store as unique_list.
+Print out the second largest element in unique_list. If the second largest does not exit, print out the maximum.
+
+Assign the list of numbers "[1, 3, 2, 2]" to a variable named "my_numbers".
+Implement a function that returns the prefix sum of a list as an array.
+Compute the prefix sum of my_numbers and store as prefix_sum_list.
+Print out the largest element in prefix_sum_list. 
+
+Assign the list of numbers "[3, -3, -3]" to a variable named "my_numbers".
+Implement a function that returns the prefix sum of a list as an array.
+Compute the prefix sum of my_numbers and store as prefix_sum_list.
+Print out the largest element in prefix_sum_list. 
+
+Assign the list of numbers "[0, 0.2, 0.4, -0.2]" to a variable named "my_numbers".
+Implement a function that returns the prefix sum of a list as an array.
+Compute the prefix sum of my_numbers and store as prefix_sum_list.
+Print out the largest element in prefix_sum_list. 
+
+Assign the list of numbers "[3, 3, 3, -2, 2, 1]" to a variable named "my_numbers".
+Implement a function that returns the prefix sum of a list as an array.
+Compute the prefix sum of my_numbers and store as prefix_sum_list.
+Print out the largest element in prefix_sum_list. 
+
+Assign the list of numbers "[-0.2, 5, -0.2]" to a variable named "my_numbers".
+Implement a function that returns the prefix sum of a list as an array.
+Compute the prefix sum of my_numbers and store as prefix_sum_list.
+Print out the largest element in prefix_sum_list. 
+
+Assign the list of numbers "[1, 3, 2, 2]" to a variable named "my_numbers".
+Count the distances from each element in my_number to 0. .
+Find the closest number to 0 in my_number and store as closest_number.
+Print out the distance from closest_number to 0. 
+
+Assign the list of numbers "[3, -3, -3]" to a variable named "my_numbers".
+Count the distances from each element in my_number to 0. .
+Find the closest number to 0 in my_number and store as closest_number.
+Print out the distance from closest_number to 0. 
+
+Assign the list of numbers "[0, 0.2, 0.4, -0.2]" to a variable named "my_numbers".
+Count the distances from each element in my_number to 0. .
+Find the closest number to 0 in my_number and store as closest_number.
+Print out the distance from closest_number to 0. 
+
+Assign the list of numbers "[3, 3, 3, -2, 2, 1]" to a variable named "my_numbers".
+Count the distances from each element in my_number to 0. .
+Find the closest number to 0 in my_number and store as closest_number.
+Print out the distance from closest_number to 0. 
+
+Assign the list of numbers "[-0.2, 5, -0.2]" to a variable named "my_numbers".
+Count the distances from each element in my_number to 0. .
+Find the closest number to 0 in my_number and store as closest_number.
+Print out the distance from closest_number to 0. 
+
+Assign the string "acc" to a variable named "my_string".
+Implement a function that checks whether a string only contains unique characters.
+Find the longest substring of my_string that contains only unique characters and store as result_substring.
+Print out the length of result_substring.
+
+Assign the string "accccccccccccccccccccc" to a variable named "my_string".
+Implement a function that checks whether a string only contains unique characters.
+Find the longest substring of my_string that contains only unique characters and store as result_substring.
+Print out the length of result_substring.
+
+Assign the string "abcdef" to a variable named "my_string".
+Implement a function that checks whether a string only contains unique characters.
+Find the longest substring of my_string that contains only unique characters and store as result_substring.
+Print out the length of result_substring.
+
+Assign the string "acdeffce" to a variable named "my_string".
+Implement a function that checks whether a string only contains unique characters.
+Find the longest substring of my_string that contains only unique characters and store as result_substring.
+Print out the length of result_substring.
+
+Assign the string "aaaaaaaaaaaaa" to a variable named "my_string".
+Implement a function that checks whether a string only contains unique characters.
+Find the longest substring of my_string that contains only unique characters and store as result_substring.
+Print out the length of result_substring.
+
+Assign a string "abadb" to a variable named "my_string".
+Find the repeated characters in the my_string.
+Count the frequency of these repeated characters.
+Print out the length of most frequent character.
+
+Assign a string "aaaaaaaa" to a variable named "my_string".
+Find the repeated characters in the my_string.
+Count the frequency of these repeated characters.
+Print out the length of most frequent character.
+
+Assign a string "caaaaaaaaaaaa" to a variable named "my_string".
+Find the repeated characters in the my_string.
+Count the frequency of these repeated characters.
+Print out the length of most frequent character.
+
+Assign a string "cccccaaaaa" to a variable named "my_string".
+Find the repeated characters in the my_string.
+Count the frequency of these repeated characters.
+Print out the length of most frequent character.
+
+Assign a string "abcde" to a variable named "my_string".
+Find the repeated characters in the my_string.
+Count the frequency of these repeated characters.
+Print out the length of most frequent character.
+
+Assign a string "a" to a variable named "my_string".
+Implement a function that checks whether a string is a palindrome.
+Find all substrings of my_string which is a palindrome and store as a list.
+Print out the length of longest palindrome in the above list.
+
+Assign a string "abcba" to a variable named "my_string".
+Implement a function that checks whether a string is a palindrome.
+Find all substrings of my_string which is a palindrome and store as a list.
+Print out the length of longest palindrome in the above list.
+
+Assign a string "caaa" to a variable named "my_string".
+Implement a function that checks whether a string is a palindrome.
+Find all substrings of my_string which is a palindrome and store as a list.
+Print out the length of longest palindrome in the above list.
+
+Assign a string "cccccaaaaa" to a variable named "my_string".
+Implement a function that checks whether a string is a palindrome.
+Find all substrings of my_string which is a palindrome and store as a list.
+Print out the length of longest palindrome in the above list.
+
+Assign a string "abcde" to a variable named "my_string".
+Implement a function that checks whether a string is a palindrome.
+Find all substrings of my_string which is a palindrome and store as a list.
+Print out the length of longest palindrome in the above list.
+
+Assign an integer "10" to a variable named "my_integer".
+Implement a function that checks whether an integer is a prime number.
+Find all prime numbers that are less than my_integer and store as prime_result.
+Print out the length of prime_result.
+
+Assign an integer "0" to a variable named "my_integer".
+Implement a function that checks whether an integer is a prime number.
+Find all prime numbers that are less than my_integer and store as prime_result.
+Print out the length of prime_result.
+
+Assign an integer "1" to a variable named "my_integer".
+Implement a function that checks whether an integer is a prime number.
+Find all prime numbers that are less than my_integer and store as prime_result.
+Print out the length of prime_result.
+
+Assign an integer "100" to a variable named "my_integer".
+Implement a function that checks whether an integer is a prime number.
+Find all prime numbers that are less than my_integer and store as prime_result.
+Print out the length of prime_result.
+
+Assign an integer "17" to a variable named "my_integer".
+Implement a function that checks whether an integer is a prime number.
+Find all prime numbers that are less than my_integer and store as prime_result.
+Print out the length of prime_result.
+
+Assign an array "[1, 2, 3, 4, 5]" to a variable named "my_array".
+Assign a positive integer "3" to a variable named "k".
+Implement a function that rotates one array to the right by 1 step.
+Rotate my_array k steps and store as rotated_result.
+Print out rotated_result.
+
+Assign an array "[-1, 30, 50, 3]" to a variable named "my_array".
+Assign a positive integer "2" to a variable named "k".
+Implement a function that rotates one array to the right by 1 step.
+Rotate my_array k steps and store as rotated_result.
+Print out rotated_result.
+
+Assign an array "[2, 3, 5, -30]" to a variable named "my_array".
+Assign a positive integer "1" to a variable named "k".
+Implement a function that rotates one array to the right by 1 step.
+Rotate my_array k steps and store as rotated_result.
+Print out rotated_result.
+
+Assign an array "[1, 2, 0, 4]" to a variable named "my_array".
+Assign a positive integer "0" to a variable named "k".
+Implement a function that rotates one array to the right by 1 step.
+Rotate my_array k steps and store as rotated_result.
+Print out rotated_result.
+
+Assign an array "[2, 3, 4]" to a variable named "my_array".
+Assign a positive integer "8" to a variable named "k".
+Implement a function that rotates one array to the right by 1 step.
+Rotate my_array k steps and store as rotated_result.
+Print out rotated_result.
+
+Assign an array "[1, 2, 3, 4, 5]" to a variable named "my_array".
+Compute the sum of my_array and store as my_sum.
+Implement a function that checks whether one subset of an array "[1, 2, 3, 4, 5]" is equal to my_sum/2.
+Print out the function output when the above array is my_array.
+
+Assign an array "[1, 5, 11, 5]" to a variable named "my_array".
+Compute the sum of my_array and store as my_sum.
+Implement a function that checks whether one subset of an array "[1, 5, 11, 5]" is equal to my_sum/2.
+Print out the function output when the above array is my_array.
+
+Assign an array "[1, 2, 3, 5]" to a variable named "my_array".
+Compute the sum of my_array and store as my_sum.
+Implement a function that checks whether one subset of an array "[1, 2, 3, 5]" is equal to my_sum/2.
+Print out the function output when the above array is my_array.
+
+Assign an array "[1, 2, 0, 4]" to a variable named "my_array".
+Compute the sum of my_array and store as my_sum.
+Implement a function that checks whether one subset of an array "[1, 2, 0, 4]" is equal to my_sum/2.
+Print out the function output when the above array is my_array.
+
+Assign an array "[2, 3, 4, 3]" to a variable named "my_array".
+Compute the sum of my_array and store as my_sum.
+Implement a function that checks whether one subset of an array "[2, 3, 4, 3]" is equal to my_sum/2.
+Print out the function output when the above array is my_array.
+
+Assign a non-negative integer "2" to a variable named "my_number".
+Compute the square root of my_number and store as root_number.
+Implement a function that only returns the integer part of a float number.
+Print out the integer part of root_number.
+
+Assign a non-negative integer "5" to a variable named "my_number".
+Compute the square root of my_number and store as root_number.
+Implement a function that only returns the integer part of a float number.
+Print out the integer part of root_number.
+
+Assign a non-negative integer "101" to a variable named "my_number".
+Compute the square root of my_number and store as root_number.
+Implement a function that only returns the integer part of a float number.
+Print out the integer part of root_number.
+
+Assign a non-negative integer "8" to a variable named "my_number".
+Compute the square root of my_number and store as root_number.
+Implement a function that only returns the integer part of a float number.
+Print out the integer part of root_number.
+
+Assign a non-negative integer "226" to a variable named "my_number".
+Compute the square root of my_number and store as root_number.
+Implement a function that only returns the integer part of a float number.
+Print out the integer part of root_number.
+
+Assign a non-negative integer "2" to a variable named "my_number".
+Plus my_number by 1 and store as plus_number.
+Implement a function that only returns the digits of an integer as a list.
+Print out the digits of plus_number.
+
+Assign a non-negative integer "5" to a variable named "my_number".
+Plus my_number by 1 and store as plus_number.
+Implement a function that only returns the digits of an integer as a list.
+Print out the digits of plus_number.
+
+Assign a non-negative integer "101" to a variable named "my_number".
+Plus my_number by 1 and store as plus_number.
+Implement a function that only returns the digits of an integer as a list.
+Print out the digits of plus_number.
+
+Assign a non-negative integer "2345" to a variable named "my_number".
+Plus my_number by 1 and store as plus_number.
+Implement a function that only returns the digits of an integer as a list.
+Print out the digits of plus_number.
+
+Assign a non-negative integer "229" to a variable named "my_number".
+Plus my_number by 1 and store as plus_number.
+Implement a function that only returns the digits of an integer as a list.
+Print out the digits of plus_number.
+
+Assign a non-negative integer "2" to a variable named "my_number".
+Implement a function that computes the square sum of two integers.
+Implement a function that checks one number is the sum of two square numbers.
+Print out "True" if my_number is the sum of two square numbers. Otherwise, print "False".
+
+Assign a non-negative integer "5" to a variable named "my_number".
+Implement a function that computes the square sum of two integers.
+Implement a function that checks one number is the sum of two square numbers.
+Print out "True" if my_number is the sum of two square numbers. Otherwise, print "False".
+
+Assign a non-negative integer "101" to a variable named "my_number".
+Implement a function that computes the square sum of two integers.
+Implement a function that checks one number is the sum of two square numbers.
+Print out "True" if my_number is the sum of two square numbers. Otherwise, print "False".
+
+Assign a non-negative integer "3" to a variable named "my_number".
+Implement a function that computes the square sum of two integers.
+Implement a function that checks one number is the sum of two square numbers.
+Print out "True" if my_number is the sum of two square numbers. Otherwise, print "False".
+
+Assign a non-negative integer "7" to a variable named "my_number".
+Implement a function that computes the square sum of two integers.
+Implement a function that checks one number is the sum of two square numbers.
+Print out "True" if my_number is the sum of two square numbers. Otherwise, print "False".
+
+Assign an array "[14, 8, 11, 10]" to a variable named "my_array".
+Implement a function that computes standard deviation of an array.
+Calculate the standard deviation of my_array and store as result.
+Print out "True" if result is less than 1. Otherwise, print "False".
+
+Assign an array "[3, 3, 3, 4]" to a variable named "my_array".
+Implement a function that computes standard deviation of an array.
+Calculate the standard deviation of my_array and store as result.
+Print out "True" if result is less than 1. Otherwise, print "False".
+
+Assign an array "[1, 1, 1, 1, 1, 101]" to a variable named "my_array".
+Implement a function that computes standard deviation of an array.
+Calculate the standard deviation of my_array and store as result.
+Print out "True" if result is less than 1. Otherwise, print "False".
+
+Assign an array "[1, 2, 3, 4, 5, 6, 7]" to a variable named "my_array".
+Implement a function that computes standard deviation of an array.
+Calculate the standard deviation of my_array and store as result.
+Print out "True" if result is less than 1. Otherwise, print "False".
+
+Assign an array "[1, 0, 1, 0]" to a variable named "my_array".
+Implement a function that computes standard deviation of an array.
+Calculate the standard deviation of my_array and store as result.
+Print out "True" if result is less than 1. Otherwise, print "False".
+
+Assign the matrix "[[3, 2], [2, 3]]" to a variable named "my_matrix".
+Calculate the number of rows of my_matrix and store as row_number.
+Calculate the number of columns of my_matrix and store as column_number.
+Calculate the sum of row_number and column_number and print the result.
+
+Assign the matrix "[[3, 2, 5], [2, 3, 5]]" to a variable named "my_matrix".
+Calculate the number of rows of my_matrix and store as row_number.
+Calculate the number of columns of my_matrix and store as column_number.
+Calculate the sum of row_number and column_number and print the result.
+
+Assign the matrix "[[1]]" to a variable named "my_matrix".
+Calculate the number of rows of my_matrix and store as row_number.
+Calculate the number of columns of my_matrix and store as column_number.
+Calculate the sum of row_number and column_number and print the result.
+
+Assign the matrix "[[30000, 30000, 1], [30000, 30000, 1], [30000, 30000, 1]]" to a variable named "my_matrix".
+Calculate the number of rows of my_matrix and store as row_number.
+Calculate the number of columns of my_matrix and store as column_number.
+Calculate the sum of row_number and column_number and print the result.
+
+Assign the matrix "[[5, 5, 5, 5, 5, 0]]" to a variable named "my_matrix".
+Calculate the number of rows of my_matrix and store as row_number.
+Calculate the number of columns of my_matrix and store as column_number.
+Calculate the sum of row_number and column_number and print the result.
+
+Assign the array "[3, 2, 2, 3]" to a variable named "my_array".
+Calculate the mean of my_array and store as mean_number.
+Calculate the median of my_array and store as median_number.
+Calculate the difference between mean_number and median_number and print the result.
+
+Assign the array "[3, 2, 5, 2, 3, 5]" to a variable named "my_array".
+Calculate the mean of my_array and store as mean_number.
+Calculate the median of my_array and store as median_number.
+Calculate the difference between mean_number and median_number and print the result.
+
+Assign the array "[1]" to a variable named "my_array".
+Calculate the mean of my_array and store as mean_number.
+Calculate the median of my_array and store as median_number.
+Calculate the difference between mean_number and median_number and print the result.
+
+Assign the array "[30000, 30000, 1, 30000, 30000, 1, 30000, 30000, 1]" to a variable named "my_array".
+Calculate the mean of my_array and store as mean_number.
+Calculate the median of my_array and store as median_number.
+Calculate the difference between mean_number and median_number and print the result.
+
+Assign the array "[5, 5, 5, 5, 5, 0]" to a variable named "my_array".
+Calculate the mean of my_array and store as mean_number.
+Calculate the median of my_array and store as median_number.
+Calculate the difference between mean_number and median_number and print the result.
+
