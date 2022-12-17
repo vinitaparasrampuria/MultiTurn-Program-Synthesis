@@ -1,0 +1,252 @@
+Import libraries. 
+Assign the string "abcde" to a variable named "my_string".
+Lowercase the given string "my_string".
+Assign the distinct characters of the string to a variable named "chars".
+Sort these characters in alphabetical order.
+Print the resulting list of characters.
+
+Assign the string "abcdecadeCADE" to a variable named "my_string".
+Lowercase the given string "my_string".
+Assign the distinct characters of the string to a variable named "chars".
+Sort these characters in alphabetical order.
+Print the resulting list of characters.
+
+Assign the string "aaaaAAAAaaaa" to a variable named "my_string".
+Lowercase the given string "my_string".
+Assign the distinct characters of the string to a variable named "chars".
+Sort these characters in alphabetical order.
+Print the resulting list of characters.
+
+Assign the string "Jerry jERRY JeRRRY" to a variable named "my_string".
+Lowercase the given string "my_string".
+Assign the distinct characters of the string to a variable named "chars".
+Sort these characters in alphabetical order.
+Print the resulting list of characters.
+
+Assign the string "ddddc" to a variable named "my_string".
+Lowercase the given string "my_string".
+Assign the distinct characters of the string to a variable named "chars".
+Sort these characters in alphabetical order.
+Print the resulting list of characters.
+
+Define a list of integers named "numbers" with the values [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].
+Calculate the sum of the elements in variable "numbers" and store the result to variable "total".
+Divide each element of the list by the total and multiply by 100, store the result to variable "normalized".
+Convert each element in variable "normalized" into a formatted string with single decimal point and store the result into "formatted".
+Print the variable "formatted".
+
+Define a list of integers named "numbers" with the values [56, 97, 19, 57, 69].
+Calculate the sum of the elements in variable "numbers" and store the result to variable "total".
+Divide each element of the list by the total and multiply by 100, store the result to variable "normalized".
+Convert each element in variable "normalized" into a formatted string with single decimal point and store the result into "formatted".
+Print the variable "formatted".
+
+Define a list of integers named "numbers" with the values [].
+Calculate the sum of the elements in variable "numbers" and store the result to variable "total".
+Divide each element of the list by the total and multiply by 100, store the result to variable "normalized".
+Convert each element in variable "normalized" into a formatted string with single decimal point and store the result into "formatted".
+Print the variable "formatted".
+
+Define a list of integers named "numbers" with the values [1].
+Calculate the sum of the elements in variable "numbers" and store the result to variable "total".
+Divide each element of the list by the total and multiply by 100, store the result to variable "normalized".
+Convert each element in variable "normalized" into a formatted string with single decimal point and store the result into "formatted".
+Print the variable "formatted".
+
+Define a list of integers named "numbers" with the values [10000, 1].
+Calculate the sum of the elements in variable "numbers" and store the result to variable "total".
+Divide each element of the list by the total and multiply by 100, store the result to variable "normalized".
+Convert each element in variable "normalized" into a formatted string with single decimal point and store the result into "formatted".
+Print the variable "formatted".
+
+Write a function that takes an integer minutes and converts it to seconds.
+Write a function that takes an integer hours and converts it to seconds.
+Print the total seconds of 2 hours and 13 minutes.
+
+Write a function that takes an integer minutes and converts it to seconds.
+Write a function that takes an integer hours and converts it to seconds.
+Print the total seconds of 1 hours and 2 minutes.
+
+Write a function that takes an integer minutes and converts it to seconds.
+Write a function that takes an integer hours and converts it to seconds.
+Print the total seconds of 32 hours and 32 minutes.
+
+Write a function that takes an integer minutes and converts it to seconds.
+Write a function that takes an integer hours and converts it to seconds.
+Print the total seconds of 0 hours and 32 minutes.
+
+Write a function that takes an integer minutes and converts it to seconds.
+Write a function that takes an integer hours and converts it to seconds.
+Print the total seconds of 1 hours and 1 minutes.
+
+Implement a function which returns the n-th Fibonacci number.
+Implement a function that computes the square of an integer argument.
+Print out the square of 1-th Fibonacci number.
+
+Implement a function which returns the n-th Fibonacci number.
+Implement a function that computes the square of an integer argument.
+Print out the square of 2-th Fibonacci number.
+
+Implement a function which returns the n-th Fibonacci number.
+Implement a function that computes the square of an integer argument.
+Print out the square of 3-th Fibonacci number.
+
+Implement a function which returns the n-th Fibonacci number.
+Implement a function that computes the square of an integer argument.
+Print out the square of 4-th Fibonacci number.
+
+Implement a function which returns the n-th Fibonacci number.
+Implement a function that computes the square of an integer argument.
+Print out the square of 10-th Fibonacci number.
+
+Assign the list of numbers "[1,2,3,4]" to a variable named "my_numbers".
+Count the number of negative numbers in the list as "n_neg".
+Count the number of positive numbers in the list as "n_pos".
+Print out the larger number of those two.
+
+Assign the list of numbers "[-1,2,3,4]" to a variable named "my_numbers".
+Count the number of negative numbers in the list as "n_neg".
+Count the number of positive numbers in the list as "n_pos".
+Print out the larger number of those two.
+
+Assign the list of numbers "[-1,-2,-3,-4]" to a variable named "my_numbers".
+Count the number of negative numbers in the list as "n_neg".
+Count the number of positive numbers in the list as "n_pos".
+Print out the larger number of those two.
+
+Assign the list of numbers "[-1000000, 1, 2]" to a variable named "my_numbers".
+Count the number of negative numbers in the list as "n_neg".
+Count the number of positive numbers in the list as "n_pos".
+Print out the larger number of those two.
+
+Assign the list of numbers "[-1, 0.2, 0.3, 0.4]" to a variable named "my_numbers".
+Count the number of negative numbers in the list as "n_neg".
+Count the number of positive numbers in the list as "n_pos".
+Print out the larger number of those two.
+
+Import the pandas library.
+Create a dataframe with a column labeled "Yes" with values [50, 21] and a column named "No" with values [131, 2].
+Compute the mean per column and store the value in a variable named means.
+Print the variable means.
+
+Import the pandas library.
+Create a dataframe with a column labeled "Yes" with values [-10, 10] and a column named "No" with values [-20, 20].
+Compute the mean per column and store the value in a variable named means.
+Print the variable means.
+
+Import the pandas library.
+Create a dataframe with a column labeled "Yes" with values [1, 2] and a column named "No" with values [3, 4].
+Compute the mean per column and store the value in a variable named means.
+Print the variable means.
+
+Import the pandas library.
+Create a dataframe with a column labeled "Yes" with values [-1, -2] and a column named "No" with values [-3, -4].
+Compute the mean per column and store the value in a variable named means.
+Print the variable means.
+
+Import the pandas library.
+Create a dataframe with a column labeled "Yes" with values [-10, -20] and a column named "No" with values [-30, -40].
+Compute the mean per column and store the value in a variable named means.
+Print the variable means.
+
+Write a function that returns a number, for numbers multiple of 3 print "fizz" instead of a number, for numbers multiple of 5 print "buzz", for numbers which are multiples of both 3 and 5 "fizzbuzz".
+Create a list of integers ranging from 0 to 4.
+Call the written function for each element in the list and store the result as "new_list".
+Print out the list "new_list".
+
+Write a function that returns a number, for numbers multiple of 5 print "fizz" instead of a number, for numbers multiple of 3 print "buzz", for numbers which are multiples of both 5 and 3 "fizzbuzz".
+Create a list of integers ranging from 0 to 9.
+Call the written function for each element in the list and store the result as "new_list".
+Print out the list "new_list".
+
+Write a function that returns a number, for numbers multiple of 9 print "fizz" instead of a number, for numbers multiple of 3 print "buzz", for numbers which are multiples of both 9 and 3 "fizzbuzz".
+Create a list of integers ranging from 0 to 2.
+Call the written function for each element in the list and store the result as "new_list".
+Print out the list "new_list".
+
+Write a function that returns a number, for numbers multiple of 2 print "fizz" instead of a number, for numbers multiple of 4 print "buzz", for numbers which are multiples of both 2 and 4 "fizzbuzz".
+Create a list of integers ranging from 0 to 7.
+Call the written function for each element in the list and store the result as "new_list".
+Print out the list "new_list".
+
+Write a function that returns a number, for numbers multiple of 2 print "fizz" instead of a number, for numbers multiple of 4 print "buzz", for numbers which are multiples of both 2 and 4 "fizzbuzz".
+Create a list of integers ranging from 4 to 7.
+Call the written function for each element in the list and store the result as "new_list".
+Print out the list "new_list".
+
+Write a function that can take a string and return a list of word bigrams as pairs.
+Assign the string "Have free hours and love children? Drive kids to school, soccer practice and other activities." to a variable named sentence.
+Print out the bi-grams for the variable named sentence.
+
+Write a function that can take a string and return a list of word bigrams as pairs.
+Assign the string "Hello World Foo Bar" to a variable named sentence.
+Print out the bi-grams for the variable named sentence.
+
+Write a function that can take a string and return a list of word bigrams as pairs.
+Assign the string "AA BB CC" to a variable named sentence.
+Print out the bi-grams for the variable named sentence.
+
+Write a function that can take a string and return a list of word bigrams as pairs.
+Assign the string "abc de" to a variable named sentence.
+Print out the bi-grams for the variable named sentence.
+
+Write a function that can take a string and return a list of word bigrams as pairs.
+Assign the string "AB CD EF" to a variable named sentence.
+Print out the bi-grams for the variable named sentence.
+
+Create a function "num_len" that takes a number num and returns its length. E.g., number_length(5000) = 4.
+Initialize a last "my_list" with the values [1, 2, 3, 12]
+Print the longest number in this list.
+
+Create a function "num_len" that takes a number num and returns its length. E.g., number_length(5000) = 4.
+Initialize a last "my_list" with the values [-123, 2, 3, 12]
+Print the longest number in this list.
+
+Create a function "num_len" that takes a number num and returns its length. E.g., number_length(5000) = 4.
+Initialize a last "my_list" with the values [1]
+Print the longest number in this list.
+
+Create a function "num_len" that takes a number num and returns its length. E.g., number_length(5000) = 4.
+Initialize a last "my_list" with the values [-12, 1]
+Print the longest number in this list.
+
+Create a function "num_len" that takes a number num and returns its length. E.g., number_length(5000) = 4.
+Initialize a last "my_list" with the values [1, 22, 333, 4444, -55555]
+Print the longest number in this list.
+
+
+Defines a class "Person" which takes name and id as constructor arguments.
+Extend the class with a function __hash__ which uses the id property as hash value.
+Extend the class with a function __eq__ which returns true, if the hash value of the passed object and self are identical.
+Create a list "persons" with instances of Person and names "Person A", "Person B", "Person C" and ids 1, 2, 2.
+Create a set "unique_persons" of this list.
+Print the number of elements in the set.
+
+Defines a class "Person" which takes name and id as constructor arguments.
+Extend the class with a function __hash__ which uses the name property as hash value.
+Extend the class with a function __eq__ which returns true, if the hash value of the passed object and self are identical.
+Create a list "persons" with instances of Person and names "Person A", "Person B", "Person C" and ids 1, 2, 2.
+Create a set "unique_persons" of this list.
+Print the number of elements in the set.
+
+Defines a class "Person" which takes name and id as constructor arguments.
+Extend the class with a function __hash__ which uses the id property as hash value.
+Extend the class with a function __eq__ which returns true, if the hash value of the passed object and self are identical.
+Create a list "persons" with instances of Person and names "Person A", "Person B", "Person C" and ids 2, 2, 2.
+Create a set "unique_persons" of this list.
+Print the number of elements in the set.
+
+Defines a class "Person" which takes name and id as constructor arguments.
+Extend the class with a function __hash__ which uses the id property as hash value.
+Extend the class with a function __eq__ which returns true, if the hash value of the passed object and self are identical.
+Create a list "persons" with instances of Person and names "Person A", "Person B", "Person C" and ids 1, 2, 3.
+Create a set "unique_persons" of this list.
+Print the number of elements in the set.
+
+Defines a class "Person" which takes name and id as constructor arguments.
+Extend the class with a function __hash__ which uses the name property as hash value.
+Extend the class with a function __eq__ which returns true, if the hash value of the passed object and self are identical.
+Create a list "persons" with instances of Person and names "Person A", "Person B", "Person B" and ids 1, 1, 1.
+Create a set "unique_persons" of this list.
+Print the number of elements in the set.
+
